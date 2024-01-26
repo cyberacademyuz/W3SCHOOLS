@@ -5,11 +5,11 @@ HTML web sahifalar yaratish uchun standart markuplash tili.
 ## <mark style="color:green;">HTML o'zi nima ?</mark>
 
 * HTML **H**yper **T**ext **M**arkup **L**anguage so'zining qisqa ko'rinishi.
-* HTML web sahifalar yaratish uchun standart markuplash til.
-* HTML web sahifalarning strukturasini tasvirlaydi.
-* HTML  bir necha elementlardan tashkil topgan bo'ladi.
+* HTML veb sahifalar yaratish uchun standart belgilashli til.
+* HTML veb sahifalarning strukturasini tasvirlaydi.
+* HTML bir necha elementlardan tashkil topgan bo'ladi.
 * HTML elementlari brauzerlarga kontentni (veb sahifadagi ma'lumotlarni) qanday ko'rsatishni tushuntiradi.
-* HTML elementlari web sahifadagi kontentlarni " head (bosh qism) ", " body (tana qism) ", " link (boshqa web sahifaga havola)" kabi guruhlarga ajratadi.
+* HTML elementlari kontent qismlarini "bu sarlavha", "bu oddiy matn", "bu havola" kabi belgilab beradi.
 
 ## <mark style="color:green;">Oddiy HTML hujjat</mark>
 
@@ -32,50 +32,46 @@ HTML web sahifalar yaratish uchun standart markuplash tili.
 
 ## <mark style="color:green;">Misol orqali tushuntirish</mark>
 
-* <mark style="color:red;">\<!DOCTYPE html></mark> hujjat HTML5 da yozilganini bildiradi.&#x20;
-* <mark style="color:red;">\<html></mark>  -  HTML sahifaning eng asosiy (root) elementi hisoblanadi.&#x20;
-* <mark style="color:red;">\<head></mark> -  ​web sahifa haqidagi meta-ma'lumotlarni saqlovchi element. Meta ma'lumotlar haqida keyingi darslarda gaplashamiz.
-* <mark style="color:red;">\<title></mark>  -  web sahifaning nomini saqlovchi element ( sahifa nomi  brauzerda ochilgan har bir oynaning sarlavhalar qatorida ko'rsatiladi).
-* <mark style="color:red;">\<body></mark>  -  web sahifaning tana (body) qismidagi foydalanuvchilarga ko'rinadigan sarlavha, paragraflar, rasmlar, havolalar(hyperlink), jadvallar, ro'yxatlar kabi kontentni saqlovchi element.
-* <mark style="color:red;">\<h1></mark>  -  eng katta o'lchamdagi sarlavha elementi.
-* <mark style="color:red;">\<p></mark>  -  paragraf elementi.
+* <mark style="color:red;">\<!DOCTYPE html></mark> hujjat HTML5 da yozilganini bildiradi.
+* <mark style="color:red;">\<html></mark> - HTML sahifaning eng asosiy (root) elementi hisoblanadi.
+* <mark style="color:red;">\<head></mark> - ​veb sahifa haqidagi meta-ma'lumotlarni saqlovchi element. Meta ma'lumotlar haqida keyingi darslarda gaplashamiz.
+* <mark style="color:red;">\<title></mark> - veb sahifaning nomini saqlovchi element ( sahifa nomi brauzerda ochilgan har bir oynaning sarlavhalar qatorida ko'rsatiladi).
+* <mark style="color:red;">\<body></mark> - veb sahifaning tana (body) qismidagi foydalanuvchilarga ko'rinadigan sarlavha, paragraflar, rasmlar, havolalar(hyperlink), jadvallar, ro'yxatlar kabi kontentni saqlovchi element.
+* <mark style="color:red;">\<h1></mark> - eng katta o'lchamdagi sarlavha elementi.
+* <mark style="color:red;">\<p></mark> - paragraf elementi.
 
 ## <mark style="color:green;">HTML elementlari nima ?</mark>
 
 HTML elementlari, biror ma'lumotni o'z ichiga olgan ochiluvchi va yopiluvchi tegni bildiradi.
 
-<mark style="color:blue;"><</mark><mark style="color:red;">tagnomi</mark><mark style="color:blue;">></mark> Shu yerga biror ma'lumot kiritiladi <mark style="color:blue;"><</mark><mark style="color:red;">/tagnomi</mark><mark style="color:blue;">></mark>
+<mark style="color:blue;"><</mark><mark style="color:red;">tegnomi</mark><mark style="color:blue;">></mark> Shu yerga biror ma'lumot kiritiladi <mark style="color:blue;"><</mark><mark style="color:red;">/tegnomi</mark><mark style="color:blue;">></mark>
 
 <mark style="color:blue;"><</mark><mark style="color:red;">h1</mark><mark style="color:blue;">></mark> Mening birinchi sarlavham <mark style="color:blue;"><</mark><mark style="color:red;">/h1</mark><mark style="color:blue;">></mark>
 
-<mark style="color:blue;"><</mark><mark style="color:red;">p</mark><mark style="color:blue;">></mark> Mening birinchi paragrifim <mark style="color:blue;"><</mark><mark style="color:red;">/p</mark><mark style="color:blue;">></mark>
+<mark style="color:blue;"><</mark><mark style="color:red;">p</mark><mark style="color:blue;">></mark> Mening birinchi paragrafim <mark style="color:blue;"><</mark><mark style="color:red;">/p</mark><mark style="color:blue;">></mark>
 
-| Ochiluvchi teg | Element kontenti           | Yopiluvchi teg |
-| -------------- | -------------------------- | -------------- |
-| \<h1>          | Mening birinchi sarlavham  | \</h1>         |
-| \<p>           | Mening birinchi paragrafim | \</p>          |
-| \<br>          | Yozilmaydi                 | Yozilmaydi     |
+<table><thead><tr><th width="265.3333333333333">Ochiluvchi teg</th><th>Element kontenti</th><th>Yopiluvchi teg</th></tr></thead><tbody><tr><td>&#x3C;h1></td><td>Mening birinchi sarlavham</td><td>&#x3C;/h1></td></tr><tr><td>&#x3C;p></td><td>Mening birinchi paragrafim</td><td>&#x3C;/p></td></tr><tr><td>&#x3C;br></td><td>Yozilmaydi</td><td>Yozilmaydi</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Eslatma:**&#x20;
+**Eslatma:**
 
-Ba'zi HTML elementlarida kontent bo'lmaydi (\<br> elementi kabi) Bu elementlar bo'sh elementlar deyiladi.  Bo'sh elementlarda yopiluvchi teg ham bo'lmaydi.
+Ba'zi HTML elementlarida kontent bo'lmaydi (\<br> elementi kabi) Bu elementlar bo'sh elementlar deyiladi. Bo'sh elementlarda yopiluvchi teg ham bo'lmaydi.
 {% endhint %}
 
-## <mark style="color:green;">Web brauzerlar</mark>
+## <mark style="color:green;">Veb brauzerlar</mark>
 
-Web-brauzerlar (Chrome, Safari, Firefox, Edge, Opera) HTML hujjatlarni o'qib, ulardagi ma'lumotni foydalanuvchiga to'grilab ko'rsatuvchi maxsus dasturlardir.
+Veb-brauzerlar (Chrome, Safari, Firefox, Edge, Opera) HTML hujjatlarni o'qib, ulardagi ma'lumotni foydalanuvchiga to'g'rilab ko'rsatuvchi maxsus dasturlardir.
 
 <figure><img src="../../.gitbook/assets/image (766).png" alt=""><figcaption></figcaption></figure>
 
 HTML sahifa strukturasi
 
-Pastdagi suratda HTML sahifaning vizual strukturasi:
+Pastdagi suratda HTML sahifasining vizual strukturasi:
 
 <figure><img src="../../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-**Eslatma:** ​Brauzerda faqatgina `<body>` tegi ichidagi kontent (yuqorida turgan rasmdagi oq rangli qism) ko'rinadi. `<title>` elementi ichidagi kontent esa brauzerning tab qismida ko'rinadi.&#x20;
+**Eslatma:** ​Brauzerda faqatgina `<body>` tegi ichidagi kontent (yuqorida turgan rasmdagi oq rangli qism) ko'rinadi. `<title>` elementi ichidagi kontent esa brauzerning tab qismida ko'rinadi.
 {% endhint %}
 
 ## <mark style="color:green;">HTML tarixi</mark>
@@ -95,10 +91,3 @@ Pastdagi suratda HTML sahifaning vizual strukturasi:
 | 2016 | W3C kandidat tavsiyasi: HTML5.1      |
 | 2017 | W3C tavsiyasi: HTML5.1 2-nashr       |
 | 2017 | W3C tavsiyasi: HTML5.2               |
-
-
-
-
-
-
-

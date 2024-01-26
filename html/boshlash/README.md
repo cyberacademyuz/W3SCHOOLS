@@ -1,6 +1,6 @@
 # Boshlash
 
-HTML orqali o'zingizning shaxsiy websaytingizni yarata olasiz
+HTML orqali o'zingizning shaxsiy vebsaytingizni yarata olasiz.
 
 HTML o'rganishga oson - Siz bundan rohatlanasiz !
 
@@ -29,13 +29,11 @@ HTML o'rganishga oson - Siz bundan rohatlanasiz !
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default" %}
 
-Bu qanday ishlashini ko'rish uchun **"Try it yourself"** ni bosing.
+Bu qanday ishlashini ko'rish uchun yuqoridagi havolani bosing.
 
 ## <mark style="color:green;">HTML Misollar</mark>
 
 Bu HTML darsliklarida 200 dan ortiq misol topishingiz mumkin. Bizning onlayn "**Try it yourself**" editorimiz orqali har bir misollarni o‘zgartirishingiz va sinab ko‘rishingiz mumkin.
-
-[<mark style="color:purple;">**HTML Misollariga o'tish**</mark>](../html-misollar/)
 
 ## <mark style="color:green;">HTML Topshiriqlar</mark>
 
@@ -43,7 +41,7 @@ Bu darslik HTMLga doir 88 ta topshiriqlarni o‘z ichiga olgan.
 
 "About W3Schools" paragrafiga tegishli tushirib qoldirilgan qismni kiriting.
 
-```
+```html
 <p [...]="About W3Schools"> W3Schools is a web developer's site.</p>
 ```
 
@@ -51,7 +49,6 @@ Bu darslik HTMLga doir 88 ta topshiriqlarni o‘z ichiga olgan.
 
 ## <mark style="color:green;">HTML Quiz Test</mark>
 
-HTML bilimlaringizni bizning HTML Quiz-miz orqali tekshiring.
+HTML bilimlaringizni bizning HTML Quiz orqali tekshiring.
 
-[<mark style="color:blue;">HTML Quiz ni boshlash</mark>](../html-misollar/quiz.md)
-
+[<mark style="color:blue;">HTML Quiz ni boshlash</mark>](https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML)
