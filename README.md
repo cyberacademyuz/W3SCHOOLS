@@ -85,150 +85,150 @@ layout: landing
         <td><a href=".gitbook/assets/ajax.svg">ajax.svg</a></td>
         <td><a href="javascript/js-ajax/">js-ajax</a></td>
     </tr>
-    <>
+    <tr>
       <td align="center">AppML</td>
         <td><a href=".gitbook/assets/appml.svg">appml.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Python</td>
         <td><a href=".gitbook/assets/Python.svg">Python.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Kotlin</td>
         <td><a href=".gitbook/assets/Kotlin.svg">Kotlin.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Java</td>
         <td><a href=".gitbook/assets/java.svg">java.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">C</td>
         <td><a href=".gitbook/assets/C.svg">C.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">C++</td>
         <td><a href=".gitbook/assets/C++.svg">C++.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">C#</td>
         <td><a href=".gitbook/assets/c#.svg">c#.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">R</td>
         <td><a href=".gitbook/assets/R.svg">R.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Django</td>
         <td><a href=".gitbook/assets/Django.svg">Django.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Go</td>
         <td><a href=".gitbook/assets/go.svg">go.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">TypeScript</td>
         <td><a href=".gitbook/assets/TypeScript.svg">TypeScript.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">SQL</td>
         <td><a href=".gitbook/assets/SQL.svg">SQL.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">MySQL</td>
         <td><a href=".gitbook/assets/MySQL.svg">MySQL.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">PHP</td>
         <td><a href=".gitbook/assets/PHP.svg">PHP.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">ASP</td>
         <td><a href=".gitbook/assets/ASP.svg">ASP.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">NodeJs</td>
         <td><a href=".gitbook/assets/node.js.svg">node.js.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Raspberry PI</td>
         <td><a href=".gitbook/assets/raspberry.svg">raspberry.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">GIT</td>
         <td><a href=".gitbook/assets/git.svg">git.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">MongoDB</td>
         <td><a href=".gitbook/assets/MongoDB.svg">MongoDB.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">AWS Cloud</td>
         <td><a href=".gitbook/assets/aws.svg">aws.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Cyber Security</td>
         <td><a href=".gitbook/assets/cyber security.svg">cyber security.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Artificial intelligence</td>
         <td><a href=".gitbook/assets/AI.svg">AI.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Machine Learning</td>
         <td><a href=".gitbook/assets/ML.svg">ML.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Data Science</td>
         <td><a href=".gitbook/assets/dc.svg">dc.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">NumPy</td>
         <td><a href=".gitbook/assets/numpy.svg">numpy.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Pandas</td>
         <td><a href=".gitbook/assets/Pandas.svg">Pandas.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">SciPy</td>
         <td><a href=".gitbook/assets/SciPy.svg">SciPy.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Matplotlib</td>
         <td><a href=".gitbook/assets/Matplotlib.svg">Matplotlib.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">Statistics</td>
         <td><a href=".gitbook/assets/statistics.svg">statistics.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">XML</td>
         <td><a href=".gitbook/assets/XML.svg">XML.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">XML AJAX</td>
         <td><a href=".gitbook/assets/XMLAJAX.svg">XMLAJAX.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">XML DOM</td>
         <td><a href=".gitbook/assets/XMLDOM.svg">XMLDOM.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">XML DTD</td>
         <td><a href=".gitbook/assets/XMLDTD.svg">XMLDTD.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">XSLT</td>
         <td><a href=".gitbook/assets/XSLT.svg">XSLT.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">XML Schema</td>
         <td><a href=".gitbook/assets/XMLschema.svg">XMLschema.svg</a></td><td></td>
-    </  tr>
-    <>
+    </tr>
+    <tr>
       <td align="center">XPath</td>
         <td><a href=".gitbook/assets/XPath.svg">XPath.svg</a></td><td></td>
-    </  tr>
+    </tr>
     <tr>
       <td align="center">XQuery</td>
         <td><a href=".gitbook/assets/XQuery.svg">XQuery.svg</a></td><td></td></tr></tbody></table>
