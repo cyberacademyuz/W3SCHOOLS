@@ -4,7 +4,7 @@ HTML web sahifalar yaratish uchun standart markuplash tili.
 
 ## <mark style="color:green;">HTML o'zi nima ?</mark>
 
-* HTML **H**yper **T**ext **M**arkup **L**anguage so'zining qisqa ko'rinishi.
+* HTML <mark style="color:green;">**H**</mark>yper <mark style="color:green;">**T**</mark>ext <mark style="color:green;">**M**</mark>arkup <mark style="color:green;">**L**</mark>anguage so'zining qisqa ko'rinishi.
 * HTML veb sahifalar yaratish uchun standart belgilashli til.
 * HTML veb sahifalarning strukturasini tasvirlaydi.
 * HTML bir necha elementlardan tashkil topgan bo'ladi.
