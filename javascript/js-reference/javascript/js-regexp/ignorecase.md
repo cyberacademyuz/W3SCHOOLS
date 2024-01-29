@@ -1,0 +1,2 @@
+# ignoreCase
+

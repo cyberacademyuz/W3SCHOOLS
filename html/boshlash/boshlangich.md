@@ -6,7 +6,7 @@ Agar biz, siz o'rganmagan teglardan foydalansak xavotir olmang.
 
 ## <mark style="color:green;">HTML Hujjatlar</mark>
 
-Barcha HTML hujjatlari hujjat turini belgilovchi <mark style="color:red;">\<! DOCTYPE html></mark> tegi bilan boshlanishi kerak.
+Barcha HTML hujjatlari hujjat turini belgilovchi  <mark style="color:red;">\<! DOCTYPE html></mark> tegi bilan boshlanishi kerak.
 
 HTML - hujjatning o'zi <mark style="color:red;">`<html>`</mark> bilan boshlanadi va <mark style="color:red;">`</html>`</mark> bilan tugaydi.
 
@@ -28,13 +28,13 @@ HTML hujjatdagi ma'lumotlarning brauzerda ko'rinadigan qismi <mark style="color:
 
 ### <mark style="color:green;">\<!DOCTYPE> deklaratsiyasi</mark>
 
-<mark style="color:red;">`<!DOCTYPE>`</mark> deklaratsiyasi hujjat turini ifodalaydi, ya'ni brauzerga bu hujjat HTML5da yozilganligini bildiradi va brauzerlarga veb-sahifalarni to'g'ri ko'rsatishga yordam beradi.
+<mark style="color:red;">`<!DOCTYPE>`</mark> deklaratsiyasi hujjat turini ifodalaydi ya'ni brauzerga bu hujjat HTML5da yozilganligini bildiradi va brauzerlarga veb-sahifalarni to'g'ri ko'rsatishga yordam beradi.
 
-U faqat bir marta, sahifaning yuqori qismida (barcha HTML teglaridan oldin) yozilishi kerak.
+U faqat bir marta, sahifaning yuqori qismida (barcha HTML teglaridan oldin) yozilishi  kerak.
 
 <mark style="color:red;">`<!DOCTYPE>`</mark> deklaratsiyasida harflarning katta-kichiklikligi ahamiyatsiz.
 
-HTML5 uchun <mark style="color:red;">`<!DOCTYPE>`</mark> deklaratsiyasi:
+HTML5 uchun  <mark style="color:red;">`<!DOCTYPE>`</mark>  deklaratsiyasi:
 
 ```html
 <!DOCTYPE html>
@@ -75,7 +75,7 @@ HTML havolalar <mark style="color:red;">\<a></mark> tegi bilan yaratiladi.
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_link" %}
 
-Havolaning qaysi manzilga yo'naltirilishi <mark style="color:red;">href</mark> atributida ko'rsatiladi.
+Havolaning qaysi manzilga yo'naltirilishi  <mark style="color:red;">href</mark>  atributida ko'rsatiladi.
 
 Atributlar HTML elementlari haqida qo'shimcha ma'lumot berish uchun ishlatiladi.
 
@@ -85,7 +85,7 @@ Atributlar haqida keyingi darslarda ko'proq ma'lumot olasiz.
 
 HTMLda rasmlar <mark style="color:red;">\<img></mark> tegi yordamida qo'shiladi.
 
-Rasmning fayl joylashuvi <mark style="color:red;">`src`</mark> atributiga beriladi. Rasm haqida qisqacha ma'lumot <mark style="color:red;">`alt`</mark> attributida, rasmning kengligi <mark style="color:red;">`width`</mark> va eni <mark style="color:red;">`height`</mark> attributi yordamida amalga oshiriladi.
+Rasmning fayl  joylashuvi <mark style="color:red;">`src`</mark> atributiga beriladi. Rasm haqida qisqacha ma'lumot <mark style="color:red;">`alt`</mark> attributida, rasmning kengligi <mark style="color:red;">`width`</mark> va eni <mark style="color:red;">`height`</mark> attributi yordamida amalga oshiriladi.
 
 ```html
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"> 
@@ -93,7 +93,7 @@ Rasmning fayl joylashuvi <mark style="color:red;">`src`</mark> atributiga berila
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_img" %}
 
-### <mark style="color:green;">HTML manbalarini (source code-larni) qanday ko'rish mumkin ?</mark>
+### <mark style="color:green;">HTML manbalarini (source code-larni) qanday ko'rish mumkin ?</mark>&#x20;
 
 Biror bir veb-sahifaning html code-larini ko'rish uchun kompyuteringizdagi f12 tugmasini bosing.
 

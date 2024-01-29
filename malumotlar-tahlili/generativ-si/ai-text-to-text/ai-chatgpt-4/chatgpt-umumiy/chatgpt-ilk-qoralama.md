@@ -1,0 +1,2 @@
+# ChatGPT Ilk qoralama
+

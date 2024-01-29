@@ -1,0 +1,2 @@
+# Belgilarni o'rnatish
+

@@ -1,0 +1,2 @@
+# Mashinani o'qitish
+

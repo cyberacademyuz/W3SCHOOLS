@@ -1,0 +1,2 @@
+# CSS Standart qiymatlar
+

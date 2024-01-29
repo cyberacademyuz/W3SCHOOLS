@@ -1,0 +1,2 @@
+# Bard Ijtimoiy tarmoq
+

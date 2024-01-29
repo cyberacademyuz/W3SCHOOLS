@@ -25,7 +25,7 @@ Ba'zi HTML elementlariga misollar:
 | \<br>          | Yozilmaydi                 | Yozilmaydi     |
 
 {% hint style="warning" %}
-**Eslatma:** Ba'zi HTML elementlarida kontent bo'lmaydi (\<br> elementi kabi) Bu elementlar bo'sh elementlar deyiladi. Bo'sh elementlarda yopiluvchi teg ham bo'lmaydi.
+**Eslatma:** Ba'zi HTML elementlarida kontent bo'lmaydi (\<br> elementi kabi) Bu elementlar bo'sh elementlar deyiladi.  Bo'sh elementlarda yopiluvchi teg ham bo'lmaydi.
 {% endhint %}
 
 ## <mark style="color:green;">Ichki HTML Elementlar</mark>
@@ -69,7 +69,7 @@ Keyin, <mark style="color:red;">`<html>`</mark> elementining ichida <mark style=
 
 <mark style="color:red;">`<body>`</mark> elementi HTML hujjatning tana qismini ifodalaydi.
 
-U <mark style="color:red;">`<body>`</mark> tegi bilan boshlanib, <mark style="color:red;">`</body>`</mark> tegi bilan tugaydi.
+U <mark style="color:red;">`<body>`</mark> tegi bilan boshlanib,  <mark style="color:red;">`</body>`</mark> tegi bilan tugaydi.
 
 Keyin, <mark style="color:red;">`<body>`</mark> elementining ichida 2 ta boshqa element bor: <mark style="color:red;">`<h1>`</mark> va <mark style="color:red;">`<p>`</mark>
 
@@ -96,7 +96,7 @@ U <mark style="color:red;">`<p>`</mark> tegi bilan boshlanib <mark style="color:
 
 ## Hech qachon yopuvchi tegni qoldirib ketmang
 
-Ba'zi HTML elementlar, ularning yopiluvchi teglarini unutib qoldirsangiz ham to'g'ri ishlaydi.
+Ba'zi HTML elementlar, ularning yopuvchi teglarini unutib qoldirsangiz ham to'g'ri ishlaydi.
 
 ```html
 <html>
@@ -111,7 +111,7 @@ Ba'zi HTML elementlar, ularning yopiluvchi teglarini unutib qoldirsangiz ham to'
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_no_endtag" %}
 
-## Bo'sh HTML elementlar
+## Bo'sh HTML elementlar&#x20;
 
 Hech qanday tarkibga ega bo’lmagan HTML elementlari bo’sh elementlar deb ataladi.
 

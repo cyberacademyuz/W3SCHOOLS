@@ -1,0 +1,2 @@
+# Klaviatura qisqa buyruqlari
+

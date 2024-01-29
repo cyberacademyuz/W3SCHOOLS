@@ -1,16 +1,16 @@
 # Editorlar
 
-Editor degani tahrirlovchi degani.
+Editor degani tahrirlovchi degani.&#x20;
 
 ### <mark style="color:green;">HTMLni Notepad yoki TextEdit yordamida o'rganamiz</mark>
 
-Veb-sahifalarni yaratish uchun boshqa ko'p funksiyali murakkab matn tahrirlovchilaridan foydalanish mumkin.
+Web-sahifalarni yaratish uchun boshqa ko'p funksiyali murakkab matn tahrirlovchilaridan foydalanish mumkin.
 
 Ammo, HTMLni o'rganishda oddiyroq Notepad (Windows) va TextEdit (Mac) kabi tahrirlovchilardan foydalanishingizni maslahat beramiz.
 
-HTMLni o'rganishda oddiy matn muharrirlaridan foydalanish yaxshi usul ekanligiga ishonamiz.
+HTMLni o'rganishda oddiy matn muharrirlaridan foydalanish yaxshi usul ekanligiga ishonamiz
 
-Quyidagi qadamlar orqali Notepad yoki TextEdit bilan o‘zingizning birinchi veb sahifangizni yarating.
+Quyidagi qadamlar orqali Notepad yoki TextEdit bilan o‘zingizning birinchi web sahifangizni yarating.
 
 ### <mark style="color:green;">1-Qadam: Notepadni oching (PC)</mark>
 
@@ -55,7 +55,7 @@ Fayl nomini **"index.html"** deb yozing va encoding turini **UTF-8** deb belgila
 
 ### <mark style="color:green;">4-Qadam: Brauzeringiz orqali HTML sahifani ko'ring</mark>
 
-HTML faylni bruzeringiz orqali ochib ko'ring (fayl ustiga 2 mara bosing yoki fayl usida sichqonchaning o'ng tugmasini bosib, u yerdan "Open with" ni tanlang).
+HTML faylni bruzeringiz orqali ochib ko'ring (fayl ustiga 2 mara bosing yoki fayl usida sichqonchaning o'ng tugmasini bosib, u yerdan "Open with" ni tanlang)
 
 Natija quyidagicha bo'ladi:
 
