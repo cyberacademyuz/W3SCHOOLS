@@ -1511,6 +1511,8 @@
     * [Kirish](dasturlash/python/python-darsligi/kirish.md)
     * [Boshlash](dasturlash/python/python-darsligi/boshlash.md)
     * [Sintaksis](dasturlash/python/python-darsligi/sintaksis.md)
+    * [O'zgaruvchilar](dasturlash/python/python-darsligi/ozgaruvchilar/README.md)
+      * [Pythonda o'zgaruvchilar](dasturlash/python/python-darsligi/ozgaruvchilar/pythonda-ozgaruvchilar.md)
     * [Page](dasturlash/python/python-darsligi/page.md)
 * [PHP](dasturlash/php/README.md)
   * [PHP darsligi](dasturlash/php/php-darsligi/README.md)
