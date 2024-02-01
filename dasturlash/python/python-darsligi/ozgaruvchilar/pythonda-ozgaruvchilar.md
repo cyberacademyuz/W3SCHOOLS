@@ -1,6 +1,6 @@
 # Pythonda o'zgaruvchilar
 
-### gO'zgaruvchilar
+### O'zgaruvchilar
 
 O'zgaruvchilar ma'lumot qiymatlarini saqlovchi kenteynerlardir.
 
