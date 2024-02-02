@@ -9,3 +9,4 @@
   * [Editorlar](html/boshlash/editorlar.md)
   * [Boshlang'ich](html/boshlash/boshlangich.md)
   * [Elementlar](html/boshlash/elementlar.md)
+  * [Atributlar](html/boshlash/atributlar.md)
