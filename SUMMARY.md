@@ -1,6 +1,6 @@
 # Table of contents
 
-* [W3schools](README.md)
+* [Dasturlashni dunyodagi eng katta dasturchilar saytidan o'rganing](README.md)
 
 ## HTML
 

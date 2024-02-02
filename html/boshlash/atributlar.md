@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 description: HTML atributlari HTML elementlari (teglar)ga qo'shimcha ma'lumot beradi.
+=======
+description: HTML atributlari HTML elementlari (teglar) haqida qo'shimcha ma'lumot beradi.
+>>>>>>> c4ab4e2d3590bf1e3edb3e1adf84ce13ce15096f
 ---
 
 # Atributlar
@@ -25,7 +29,11 @@ Bizning <mark style="color:green;">HTML Havolalar</mark> bo'limimizda havolalar 
 
 ## <mark style="color:green;">src atributi</mark>
 
+<<<<<<< HEAD
 <mark style="color:red;">`<img>`</mark> tegi HTML sahifaga rasmn joylashtirish uchun ishlatiladi. `src` atributi esa rasm ko'rsatilishi uchun uning uning  joylashuvini o'z ichiga oladi.
+=======
+<mark style="color:red;">`<img>`</mark> tegi rasmni HTML sahifaga joylashtirish uchun ishlatiladi. `src` atributi esa rasmning joylashuvini belgilaydi.
+>>>>>>> c4ab4e2d3590bf1e3edb3e1adf84ce13ce15096f
 
 ```html
 <img src="img_girl.jpg">
@@ -39,13 +47,21 @@ _**1. To'liq URL**_ - boshqa web-saytda joylashgan rasmning havolasi. Misol: `sr
 
 _**Eslatma**_: Boshqa web-saytdagi rasmlar mualliflik huquqi asosida himoyalangan bo'lishi mumkin. Agar undan foydalanish uchun muallifdan ruxsat olmagan bo'lsangiz, mualliflik huquqi to'g'risidagi qonunlarni buzgan bo'lishingiz mumkin.
 
+<<<<<<< HEAD
 _**2. Nisbiy URL**_ - veb-sayt ichidagi rasm uchun havolalar. Bunda URL ichida domen nomi yozilmaydi. Agar URL qiyshiq chiziqsiz ( / ) boshlansa, rasm aynan shu sahifada joylashganini bildiradi. Misol: `src="img_girl.jpg"`. Agar URL qiyshiq chiziq bilan boshlansa, rasm biror bir papka ichida ekanligini bildiradi Misol: `src="/images/img_girl.jpg"`.
+=======
+_**2. Nisbiy URL**_ - veb-saytning ichidagi rasm uchun havolalar. Bunda URL ichida domen nomi yozilmaydi. Agar URL qiyshiq chiziqsiz ( / ) boshlansa, rasm aynan shu sahifada joylashganini bildiradi. Misol: `src="img_girl.jpg"`. Agar URL qiyshiq chiziq bilan boshlansa, rasm biror bir papka ichida ekanligini bildiradi Misol: `src="/images/img_girl.jpg"`.
+>>>>>>> c4ab4e2d3590bf1e3edb3e1adf84ce13ce15096f
 
 _**Maslahat**_: Deyarli har doim nisbiy URL manzillaridan foydalanish samarali usul hisoblanadi.
 
 ## <mark style="color:green;">Width va height atributlari</mark>
 
+<<<<<<< HEAD
 Shuningdek, `<img>` tegida rasmning bo'yi va enini piksellarda belgilaydigan `width` va `height` atributlari ham mavjud.
+=======
+Shuningdek, <mark style="color:red;">`<img>`</mark> tegida rasmning balandligi va kengligini piksellarda belgilaydigan `width` va `height` atributlari ham mavjud.
+>>>>>>> c4ab4e2d3590bf1e3edb3e1adf84ce13ce15096f
 
 ```html
 <img src="img_girl.jpg" width="500" height="600">
@@ -55,7 +71,11 @@ Shuningdek, `<img>` tegida rasmning bo'yi va enini piksellarda belgilaydigan `wi
 
 ### <mark style="color:green;">Alt atributi</mark>
 
+<<<<<<< HEAD
 &#x20;<mark style="color:red;">`<img>`</mark> tegida ta'lab qilinadigan <mark style="color:red;">`alt`</mark> atributi rasm biror sababga ko'ra ko'rinmay qolsa, rasmning o'rniga unga berilgan matnni ko'rsatadi. Rasm ko'rinmay qolishining sababi internetning sekinligi yoki <mark style="color:red;">`src`</mark> atributidagi xatolik yoki screen readerdan foydalanilganligi bo'lishi mumkin.
+=======
+&#x20;<mark style="color:red;">`<img>`</mark> tegining <mark style="color:red;">`alt`</mark> atributi rasm biror sababga ko'ra ko'rinmay qolsa, rasmning o'rniga unga berilgan matnni ko'rsatadi. Rasm ko'rinmay qolishining sababi internetning sekinligi yoki <mark style="color:red;">`src`</mark> atributidagi xatolik yoki screen readerdan foydalanilganligi bo'lishi mumkin.
+>>>>>>> c4ab4e2d3590bf1e3edb3e1adf84ce13ce15096f
 
 ```html
 <img src="img_girl.jpg" alt="Girl with a jacket">
@@ -115,13 +135,21 @@ Quyidagi misolda ingliz tili **til** sifatida, AQSH esa **mamlakat** sifatida ko
 </html>
 ```
 
+<<<<<<< HEAD
 Siz barcha til kodlarini <mark style="color:green;">HTMLning til kodlari bo'limi</mark>dan koʻrishingiz mumkin.
+=======
+Siz barcha til kodlarini <mark style="color:green;">**HTMLning til kodlari bo'limi**</mark>dan koʻrishingiz mumkin.
+>>>>>>> c4ab4e2d3590bf1e3edb3e1adf84ce13ce15096f
 
 ## <mark style="color:green;">title (sarlavha) atributi</mark>
 
 <mark style="color:red;">`title`</mark> atributi element haqida qo'shimcha ba'zi ma'lumotlarni belgilaydi.
 
+<<<<<<< HEAD
 Element ustiga sichqonchani olib borganingizda, o'ng tomonda title atributiga berilgan qo'shimcha ma'lumot ko'rsatiladi:
+=======
+Element ustiga sichqonchani olib borganingizda,o'ng tomonda <mark style="color:red;">`title`</mark> atributiga berilgan qo'shimcha ma'lumot ko'rsatiladi:
+>>>>>>> c4ab4e2d3590bf1e3edb3e1adf84ce13ce15096f
 
 ```html
 <p title="I'm a tooltip">This is a paragraph.</p>
@@ -133,7 +161,11 @@ Element ustiga sichqonchani olib borganingizda, o'ng tomonda title atributiga be
 
 HTML standarti atribut nomlarini aynan kichik harfda yozilishini talab qilmaydi.
 
+<<<<<<< HEAD
 title atributi (va shu kabi barcha boshqa atributlar ham) **title** yoki **TITLE** kabi katta yoki kichik harflar bilan yozilishi mumkin.
+=======
+<mark style="color:red;">`title`</mark> atributi (va shu kabi barcha boshqa atributlar ham) **title** yoki **TITLE** kabi katta yoki kichik harflar bilan yozilishi mumkin.
+>>>>>>> c4ab4e2d3590bf1e3edb3e1adf84ce13ce15096f
 
 Biroq, W3C ning maslahati atributlarni kichik harfda yozishni tavsiya qiladi va **XHTML** kabi murakkab hujjat turlari kichik harf atributlarini talab qiladi.
 
@@ -169,7 +201,11 @@ W3Schools da biz har doim atribut qiymatlarini qo'shtirnoqlar ichida yozamiz.
 
 ### <mark style="color:green;">Bir tirnoq yoki qo'shtirnoq ?</mark>
 
+<<<<<<< HEAD
 HTMLda atribut qiymatlarini qo'shtirnoq ichida yozish eng keng tarqalgan usul, ammo bir tirnoq ham ishlatilishi mumkin.
+=======
+HTMLda atribut qiymatlarini qo'shtirnoq ichida yozish eng keng tarqalgan usul, ammo bir tirnoqdan ham foydalanish mumkin.
+>>>>>>> c4ab4e2d3590bf1e3edb3e1adf84ce13ce15096f
 
 Ba'zi hollarda, atribut qiymatidagi matnning bir qismida qo'shtirnoqdan foydalanilgan bo'lsa, umumiy atribut qiymayini birtirnoq ichida yozish kerak:
 
@@ -189,7 +225,11 @@ yoki aksincha
 
 * Barcha HTML elementlari atributlarga ega bo'lishi mumkin;&#x20;
 * <mark style="color:red;">`<a>`</mark> tegining <mark style="color:red;">`href`</mark> atributi havola boradigan sahifaning URL manzilini belgilaydi; &#x20;
+<<<<<<< HEAD
 * <mark style="color:red;">`<img>`</mark> tegining <mark style="color:red;">`src`</mark> atributi ko'rsatiladigan rasmning joylashuvini belgilaydi; &#x20;
+=======
+* <mark style="color:red;">`<img>`</mark> tegining <mark style="color:red;">`src`</mark> atributi ko'rsatiladigan rasmning joylashuv manzilini belgilaydi; &#x20;
+>>>>>>> c4ab4e2d3590bf1e3edb3e1adf84ce13ce15096f
 * <mark style="color:red;">`<img>`</mark> tegining <mark style="color:red;">`width`</mark> va <mark style="color:red;">`height`</mark> atributlari rasmlarning o'lchami belgilaydi;&#x20;
 * &#x20;<mark style="color:red;">`<img>`</mark> tegining alt atributi rasm ko'rinmay qolsa, uning o'rniga kiritilgan matnni taqdim etadi;&#x20;
 * <mark style="color:red;">`style`</mark> atributi rang, shrift, o'lcham va boshqa shu kabi elementga qo'shimcha xususiyat berish uchun ishlatiladi;
