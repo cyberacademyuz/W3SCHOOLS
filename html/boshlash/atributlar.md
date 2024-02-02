@@ -13,7 +13,7 @@ description: HTML atributlari HTML elementlari (teglar) haqida qo'shimcha ma'lum
 
 ## <mark style="color:green;">href atributi</mark>
 
-<mark style="color:red;">`<a>`</mark> tegi havolani ifodalaydi. <mark style="color:red;">`href`</mark> atributi havola boradigan sahifaning URL manzilini belgilaydi.
+<mark style="color:red;">`<a>`</mark> tegi havolani ifodalaydi. <mark style="color:red;">`href`</mark> atributi havola boradigan sahifaning URL manzilni o'z ichiga oladi.
 
 ```html
 <a href="https://www.w3schools.com">Visit W3Schools</a>
@@ -25,7 +25,7 @@ Bizning <mark style="color:green;">HTML Havolalar</mark> bo'limimizda havolalar 
 
 ## <mark style="color:green;">src atributi</mark>
 
-<mark style="color:red;">`<img>`</mark> tegi rasmni HTML sahifasiga joylashtirish uchun ishlatiladi. `src` atributi esa rasmning joylashuvini belgilaydi.
+<mark style="color:red;">`<img>`</mark> tegi rasmni HTML sahifaga joylashtirish uchun ishlatiladi. `src` atributi esa rasmning joylashuvini belgilaydi.
 
 ```html
 <img src="img_girl.jpg">
@@ -41,11 +41,11 @@ _**Eslatma**_: Boshqa web-saytdagi rasmlar mualliflik huquqi asosida himoyalanga
 
 _**2. Nisbiy URL**_ - veb-saytning ichidagi rasm uchun havolalar. Bunda URL ichida domen nomi yozilmaydi. Agar URL qiyshiq chiziqsiz ( / ) boshlansa, rasm aynan shu sahifada joylashganini bildiradi. Misol: `src="img_girl.jpg"`. Agar URL qiyshiq chiziq bilan boshlansa, rasm biror bir papka ichida ekanligini bildiradi Misol: `src="/images/img_girl.jpg"`.
 
-_**Maslahat**_: Deyarli har doim nisbiy URL manzillaridan foydalanish samarali hisoblanadi.
+_**Maslahat**_: Deyarli har doim nisbiy URL manzillaridan foydalanish samarali usul hisoblanadi.
 
 ## <mark style="color:green;">Width va height atributlari</mark>
 
-Shuningdek, `<img>` tegida rasmning balandligi va kengligini piksellarda belgilaydigan `width` va `height` atributlari ham mavjud.
+Shuningdek, <mark style="color:red;">`<img>`</mark> tegida rasmning balandligi va kengligini piksellarda belgilaydigan `width` va `height` atributlari ham mavjud.
 
 ```html
 <img src="img_girl.jpg" width="500" height="600">
@@ -115,13 +115,13 @@ Quyidagi misolda ingliz tili **til** sifatida, AQSH esa **mamlakat** sifatida ko
 </html>
 ```
 
-Siz barcha til kodlarini HTMLning til kodlari bo'limidan koʻrishingiz mumkin.
+Siz barcha til kodlarini <mark style="color:green;">**HTMLning til kodlari bo'limi**</mark>dan koʻrishingiz mumkin.
 
 ## <mark style="color:green;">title (sarlavha) atributi</mark>
 
 <mark style="color:red;">`title`</mark> atributi element haqida qo'shimcha ba'zi ma'lumotlarni belgilaydi.
 
-Element ustiga sichqonchani olib borganingizda,o'ng tomonda title atributiga berilgan qo'shimcha ma'lumot ko'rsatiladi:
+Element ustiga sichqonchani olib borganingizda,o'ng tomonda <mark style="color:red;">`title`</mark> atributiga berilgan qo'shimcha ma'lumot ko'rsatiladi:
 
 ```html
 <p title="I'm a tooltip">This is a paragraph.</p>
@@ -133,7 +133,7 @@ Element ustiga sichqonchani olib borganingizda,o'ng tomonda title atributiga ber
 
 HTML standarti atribut nomlarini aynan kichik harfda yozilishini talab qilmaydi.
 
-title atributi (va shu kabi barcha boshqa atributlar ham) **title** yoki **TITLE** kabi katta yoki kichik harflar bilan yozilishi mumkin.
+<mark style="color:red;">`title`</mark> atributi (va shu kabi barcha boshqa atributlar ham) **title** yoki **TITLE** kabi katta yoki kichik harflar bilan yozilishi mumkin.
 
 Biroq, W3C ning maslahati atributlarni kichik harfda yozishni tavsiya qiladi va **XHTML** kabi murakkab hujjat turlari kichik harf atributlarini talab qiladi.
 
@@ -169,7 +169,7 @@ W3Schools da biz har doim atribut qiymatlarini qo'shtirnoqlar ichida yozamiz.
 
 ### <mark style="color:green;">Bir tirnoq yoki qo'shtirnoq ?</mark>
 
-HTMLda atribut qiymatlarini qo'shtirnoq ichida yozish eng keng tarqalgan usul, ammo bir tirnoq ham ishlatilishi mumkin.
+HTMLda atribut qiymatlarini qo'shtirnoq ichida yozish eng keng tarqalgan usul, ammo bir tirnoqdan ham foydalanish mumkin.
 
 Ba'zi hollarda, atribut qiymatidagi matnning bir qismida qo'shtirnoqdan foydalanilgan bo'lsa, umumiy atribut qiymayini birtirnoq ichida yozish kerak:
 
@@ -189,7 +189,7 @@ yoki aksincha
 
 * Barcha HTML elementlari atributlarga ega bo'lishi mumkin;&#x20;
 * <mark style="color:red;">`<a>`</mark> tegining <mark style="color:red;">`href`</mark> atributi havola boradigan sahifaning URL manzilini belgilaydi; &#x20;
-* <mark style="color:red;">`<img>`</mark> tegining <mark style="color:red;">`src`</mark> atributi ko'rsatiladigan rasmning joylashuvini belgilaydi; &#x20;
+* <mark style="color:red;">`<img>`</mark> tegining <mark style="color:red;">`src`</mark> atributi ko'rsatiladigan rasmning joylashuv manzilini belgilaydi; &#x20;
 * <mark style="color:red;">`<img>`</mark> tegining <mark style="color:red;">`width`</mark> va <mark style="color:red;">`height`</mark> atributlari rasmlarning o'lchami belgilaydi;&#x20;
 * &#x20;<mark style="color:red;">`<img>`</mark> tegining alt atributi rasm ko'rinmay qolsa, uning o'rniga kiritilgan matnni taqdim etadi;&#x20;
 * <mark style="color:red;">`style`</mark> atributi rang, shrift, o'lcham va boshqa shu kabi elementga qo'shimcha xususiyat berish uchun ishlatiladi;
