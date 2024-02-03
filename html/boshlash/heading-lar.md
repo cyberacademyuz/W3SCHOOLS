@@ -1,4 +1,4 @@
-# Heading-lar
+# Headinglar
 
 ## HTML sarlavhalar
 
@@ -14,6 +14,8 @@ HTML sarlavhalari `<h1>` dan `<h6>` gacha ifodalanadi.
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 ```
+
+{% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings" %}
 
 {% hint style="warning" %}
 **Eslatma:** Brauzerlar avtomatik tarzda sarlavhaning tepa va pastki qismiga boʻsh joy (**margin**) qoʻshadi.
@@ -38,3 +40,5 @@ Har bir sarlavhalarning o'zini standart o'lchami bor. Biroq istalgan sarlavha o'
 ```html
 <h1 style="font-size:60px;">Heading 1</h1>
 ```
+
+{% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings_size" %}
