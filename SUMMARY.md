@@ -10,3 +10,4 @@
   * [Boshlang'ich](html/boshlash/boshlangich.md)
   * [Elementlar](html/boshlash/elementlar.md)
   * [Atributlar](html/boshlash/atributlar.md)
+  * [Headinglar](html/boshlash/heading-lar.md)
