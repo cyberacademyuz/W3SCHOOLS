@@ -15,7 +15,7 @@ Paragraflar har doim yangi qatordan boshlanadi va  brauzerlar avtomatik tarzda p
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs1" %}
 
-### <mark style="color:green;">HTML Display</mark>
+### <mark style="color:green;">Ekranda ko'rsatilishi</mark>
 
 Kod ekranda qanday ko'rsatilishini aniq bila olmaysiz.
 
