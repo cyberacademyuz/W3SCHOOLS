@@ -12,3 +12,4 @@
   * [Atributlar](html/boshlash/atributlar.md)
   * [Headinglar](html/boshlash/heading-lar.md)
   * [Paragraflar](html/boshlash/paragraflar.md)
+  * [Style](html/boshlash/style.md)
