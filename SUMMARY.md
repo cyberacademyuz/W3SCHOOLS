@@ -15,3 +15,4 @@
   * [Style](html/boshlash/style.md)
   * [Formatlash](html/boshlash/formatlash.md)
   * [Iqtiboslar](html/boshlash/quotation.md)
+  * [Izohlar](html/boshlash/komentariyalar.md)
