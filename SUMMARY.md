@@ -13,3 +13,4 @@
   * [Headinglar](html/boshlash/heading-lar.md)
   * [Paragraflar](html/boshlash/paragraflar.md)
   * [Style](html/boshlash/style.md)
+  * [Formatlash](html/boshlash/formatlash.md)
