@@ -14,3 +14,4 @@
   * [Paragraflar](html/boshlash/paragraflar.md)
   * [Style](html/boshlash/style.md)
   * [Formatlash](html/boshlash/formatlash.md)
+  * [Iqtiboslar](html/boshlash/quotation.md)
