@@ -14,7 +14,7 @@ HTMLda rangni uning nomi bilan belgilash mumkin.
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_color_names" %}
 
-## Orqa fon ranggi
+## <mark style="color:green;">Orqa fon ranggi</mark>
 
 Siz HTML elementi uchun orqa fon rangini belgilashingiz mumkin.
 
