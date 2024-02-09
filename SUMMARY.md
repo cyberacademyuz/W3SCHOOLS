@@ -16,3 +16,7 @@
   * [Formatlash](html/boshlash/formatlash.md)
   * [Iqtiboslar](html/boshlash/quotation.md)
   * [Izohlar](html/boshlash/komentariyalar.md)
+  * [Ranglar](html/boshlash/ranglar/README.md)
+    * [RGB](html/boshlash/ranglar/rgb.md)
+    * [HEX](html/boshlash/ranglar/hex.md)
+    * [HSL](html/boshlash/ranglar/hsl.md)
