@@ -20,3 +20,5 @@
     * [RGB](html/boshlash/ranglar/rgb.md)
     * [HEX](html/boshlash/ranglar/hex.md)
     * [HSL](html/boshlash/ranglar/hsl.md)
+  * [CSS](html/boshlash/CSS.md)
+ 
