@@ -4,7 +4,7 @@ description: >-
   havolani bosish orqali bir sahifadan boshqa sahifaga o'tish imkonini beradi.
 ---
 
-# Linklar
+# Havolalar
 
 ## <mark style="color:green;">HTML havolalar - Giperhavola</mark>
 
@@ -32,7 +32,7 @@ _Link text_ qismi esa foydalanuvchiga ko'rinadigan qismdir.
 
 Havola matnini bosish foydalanuvchini kiritilgan URL manzilga o'tkazadi.
 
-{% code title="Bu misolda w3school.com saytiga o'tkazuvchi havolani qanday yaratish ko'rsatilgan:" %}
+{% code title="Bu misolda w3school.com saytiga o" %}
 ```html
 <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
 ```
@@ -63,7 +63,7 @@ Odatda, havolani bosganingizda u aynan siz turgan brauzer oynasida ochiladi. Bun
 * <mark style="color:red;">`_parent`</mark> - Sahifa asosiy ramkada ochiladi.
 * <mark style="color:red;">`_top`</mark> - Sahifa brauzer oynasining to'liq qismida ochiladi.
 
-{% code title="Sahifa brauzerning yangi oynasida yoki yangi tabda ochilishi uchun  target="_blank" dan foydalaning" %}
+{% code title="Sahifa brauzerning yangi oynasida yoki yangi tabda ochilishi uchun  target=" %}
 ```html
 <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
 ```
@@ -151,13 +151,11 @@ JavaScript tugmani bosish kabi hodisalarda nima sodir bo'lishini belgilash imkon
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_external_relative" %}
 
-> Joriy sahifa bilan bir xil papkada joylashgan sahifaga havola yaratish:
+> Joriy sahifa bilan bir xil papkada joylashgan sahifani ulash:
 >
-> {% code title="Boshqa Veb-saytga o'tkazish uchun to'liq URL manzilidan foydalanish: " %}
-> ```
+> ```html
 > <a href="default.asp">HTML tutorial</a>
 > ```
-> {% endcode %}
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_external" %}
 
