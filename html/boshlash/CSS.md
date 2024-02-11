@@ -1,6 +1,6 @@
 ---
 description: >-
-  CSS qisqartmasi Cascading Style Sheets degan ma'noni anglatadi. CSS ko'p
+  CSS qisqartmasi, Cascading Style Sheets degan ma'noni anglatadi. CSS ko'p
   ishlarni tejaydi. U bilan bir vaqtning o'zida bir nechta veb-sahifalar
   tartibini boshqarishi mumkin.
 ---
@@ -23,7 +23,7 @@ CSS yordamida rangni, shriftni, matn o'lchamini, elementlar orasidagi masofani, 
 
 CSSni HTMLsahifaga 3 xil yo'l bilan qo'shiladi:
 
-* Inline - HTML elementlari ichida style attributidan foydalanib
+* Inline - HTML elementlari ichida <mark style="color:red;">`style`</mark> attributidan foydalanib
 * Internal - <mark style="color:red;">`<head>`</mark> qismda <mark style="color:red;">`<style>`</mark> elementidan foydalanib
 * External - Tashqi CSS faylni ulash uchun <mark style="color:red;">`<link>`</mark> elementidan foydalanib
 
@@ -35,7 +35,7 @@ Inline CSS aynan bir elementga, uning o'ziga xos stil berish uchun ishlatiladi.
 
 Inline CSS elementning <mark style="color:red;">`style`</mark> atributidan foydalanadi.
 
-Quyidagi misol,<mark style="color:red;">`<h1>`</mark> elementning matn rangini ko'k va <mark style="color:red;">`<p>`</mark> elementning matn rangini qizil rangga o'zgartiradi:
+Quyidagi misol, <mark style="color:red;">`<h1>`</mark> elementidagi matn rangini ko'k va <mark style="color:red;">`<p>`</mark> elementidagi matn rangini qizil rangga o'zgartiradi:
 
 ```html
 <h1 style="color:blue;">A Blue Heading</h1>
@@ -51,7 +51,7 @@ Internal CSS bitta HTML sahifaga xos stilni aniqlash uchun ishlatiladi.
 
 Internal CSS HTML sahifaning <mark style="color:red;">`<head>`</mark> qismida <mark style="color:red;">`<style>`</mark> elementining ichida yoziladi.
 
-Quyidagi misol ushbu sahifadagi barcha  <mark style="color:red;">`<h1>`</mark> elementlarning matn rangini ko‘k rangga va barcha <mark style="color:red;">`<p>`</mark> elementlarning matn rangini esa qizil rangga o'zgartiradi. Bundan tashqari, sahifaning orqa fon ranggi "**powderblue**" rangi bilan ko'rsatiladi:
+Quyidagi misol ushbu sahifadagi barcha <mark style="color:red;">`<h1>`</mark> elementlarning matn rangini ko‘k rangga va barcha <mark style="color:red;">`<p>`</mark> elementlarning matn rangini esa qizil rangga o'zgartiradi. Bundan tashqari, sahifaning orqa fon ranggi "**powderblue**" rangi bilan ko'rsatiladi:
 
 ```html
 <!DOCTYPE html>
@@ -123,9 +123,9 @@ Bu qismda tez-tez ishlatiladigan ba'zi CSS xususiyatlarini ko'rsatamiz. Keyincha
 
 CSSning <mark style="color:red;">`color`</mark> xususiyati matn rangi qanday bo'lishi kerakligini belgilaydi.
 
-CSSning <mark style="color:red;">`font-family`</mark> xususiyati matn shrifti qanday bo'lishi kerakligini  belgilaydi.
+CSSning <mark style="color:red;">`font-family`</mark> xususiyati matn shrifti qanday bo'lishi kerakligini belgilaydi.
 
-CSSning <mark style="color:red;">`font-size`</mark> xususiyati matn o'lchami qanday bo'lishi kerakligini  belgilaydi.
+CSSning <mark style="color:red;">`font-size`</mark> xususiyati matn o'lchami qanday bo'lishi kerakligini belgilaydi.
 
 {% code title="CSSning color, font-family va font-size xususiyatlaridan foydalaning" %}
 ```html
