@@ -18,7 +18,7 @@ Sichqonchani havola ustiga olib borganingizda, sichqoncha kursori kichik qo'lga 
 **Eslatma:** havola matn bo'lishi shart emas. Havola rasm yoki boshqa HTML elementi bo'lishi ham mumkin!
 {% endhint %}
 
-## HTML Havolalar - Sintaksis
+## <mark style="color:green;">HTML Havolalar - Sintaksis</mark>
 
 HTMLda <mark style="color:red;">`<a>`</mark> tegi giperhavolani ifodalaydi. Uning sintaksisi quyidagicha.
 
@@ -171,7 +171,7 @@ Rasmdan havola sifatida foydalanish uchun (<mark style="color:red;">`<a>`</mark>
 
 Foydalanuvchining pochta dasturini ochish uchn <mark style="color:red;">`href`</mark> attributi ichida <mark style="color:red;">`mailto:`</mark>dan foydalaning
 
-## HTML havola teglari
+## <mark style="color:green;">HTML havola teglari</mark>
 
 | Teg  | Tavsif               |
 | ---- | -------------------- |
