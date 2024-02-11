@@ -215,7 +215,7 @@ Tashqi stillarni, uning to'liq URL manzili yoki veb-sahifa fayliga nisbatan ichk
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_external_url" %}
 
-> Bu misoUshbu misolda joriy veb-saytdagi html papkasida joylashgan CSS fayl ulangan:lda CSS faylning to'liq URLini ulashdan foydalanilgan
+> Ushbu misolda joriy veb-saytdagi html papkasida joylashgan CSS fayl ulangan:
 >
 > ```html
 > <link rel="stylesheet" href="/html/styles.css">
