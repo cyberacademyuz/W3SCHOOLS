@@ -21,4 +21,6 @@
     * [HEX](html/boshlash/ranglar/hex.md)
     * [HSL](html/boshlash/ranglar/hsl.md)
   * [CSS](html/boshlash/CSS.md)
- 
+  * [Havolalar](html/boshlash/havolalar/README.md)
+    * [Havola ranglari](html/boshlash/havolalar/havola-ranglari.md)
+    * [Havola bookmarklari](html/boshlash/havolalar/havola-bookmarklari.md)
