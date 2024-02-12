@@ -24,3 +24,4 @@
   * [Havolalar](html/boshlash/havolalar/README.md)
     * [Havola ranglari](html/boshlash/havolalar/havola-ranglari.md)
     * [Havola bookmarklari](html/boshlash/havolalar/havola-bookmarklari.md)
+  * [Rasmlar](html/boshlash/rasmlar/README.md)
