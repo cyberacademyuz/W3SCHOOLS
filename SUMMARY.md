@@ -32,6 +32,6 @@
   * [Favicon](html/boshlash/favicon.md)
   * [Sahifa sarlavhasi](html/boshlash/sahifa-sarlavhasi.md)
   * [Ro'yxatlar](html/boshlash/royxatlar/README.md)
-    * [Tartiblanmagan ro'yhat](html/boshlash/royxatlar/tartiblanmagan-roxhat.md)
+    * [Tartiblanmagan ro'yxat](html/boshlash/royxatlar/tartiblanmagan-royxat.md)
     * [Tartiblangan ro'yxat](html/boshlash/royxatlar/tartiblangan-royxat.md)
-    * [Tarifli ro'yxatlar](html/boshlash/royxatlar/tarif-royxatlari.md)
+    * [Tarifli ro'yxatlar](html/boshlash/royxatlar/tarifli-royxatlar.md)
