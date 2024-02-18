@@ -4,31 +4,23 @@ description: <div> elementi boshqa HTML elementlari uchun konteyner sifatida ish
 
 # Div elementi
 
-## <mark style="color:green;">`<div>`</mark> <mark style="color:green;"></mark><mark style="color:green;">elementi</mark>
+## <mark style="color:green;">`<div>`</mark> <mark style="color:green;">elementi</mark>
 
 <mark style="color:red;">`<div>`</mark> elementi default tarzda blok element hisoblanadi, u mavjud barcha bo'sh joylarni to'liq egallab oladi.
 
-> ### Misol:
->
-> <mark style="color:red;">`<div>`</mark> elementi mavjud barcha joyni egallab oladi:
->
-> ```html
-> Lorem Ipsum <div>I am a div</div> dolor sit amet. 
-> ```
->
-> ### Natija:
->
-> Lorem Ipsum
->
-> <mark style="background-color:yellow;">I am a div</mark>                                                                                                                                                                         &#x20;
->
-> dolor sit amet.
+{% code title="<div> elementi mavjud barcha joyni egallab oladi:" %}
+```html
+Lorem Ipsum <div>I am a div</div> dolor sit amet. 
+```
+{% endcode %}
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div1" %}
 
 <mark style="color:red;">`<div>`</mark> elementida talab qilinadigan atribut yo'q, lekin <mark style="color:red;">`style`</mark>, <mark style="color:red;">`class`</mark> va <mark style="color:red;">`id`</mark> kabi ixtiyor atributlarni berish mumkin.
 
-## <mark style="color:green;">Konteyner sifatida</mark> <mark style="color:green;"></mark><mark style="color:green;">`<div>`</mark>
+## <mark style="color:green;">Konteyner sifatida</mark> <mark style="color:green;">`<div>`</mark>
 
 <mark style="color:red;">`<div>`</mark> elementi ko'pincha veb-sahifa bo'limlarini birga guruhlash uchun ishlatiladi.
 
@@ -46,7 +38,7 @@ description: <div> elementi boshqa HTML elementlari uchun konteyner sifatida ish
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div2" %}
 
-## <mark style="color:green;">`<div>`</mark> <mark style="color:green;"></mark><mark style="color:green;">elementini o'rtaga joylashtirish</mark>
+## <mark style="color:green;">`<div>`</mark> <mark style="color:green;">elementini o'rtaga joylashtirish</mark>
 
 Agar sizda kengligi 100% bo'lmagan <mark style="color:red;">`<div>`</mark> elementi bo'lsa va uni o'rtaga olib kelishni xohlasangiz, CSSning <mark style="color:red;">`margin`</mark> xususiyatini <mark style="color:red;">`auto`</mark> qiling.
 
@@ -63,7 +55,7 @@ div {
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div3" %}
 
-## <mark style="color:green;">Bir qancha</mark> <mark style="color:green;"></mark><mark style="color:green;">`<div>`</mark> <mark style="color:green;"></mark><mark style="color:green;">elementlari</mark>
+## <mark style="color:green;">Bir qancha</mark> <mark style="color:green;">`<div>`</mark> <mark style="color:green;">elementlari</mark>
 
 Bir sahifada bir nechta <mark style="color:red;">`<div>`</mark> konteynerlari bo'lishi mumkin.
 
@@ -91,7 +83,7 @@ Bir sahifada bir nechta <mark style="color:red;">`<div>`</mark> konteynerlari bo
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div4" %}
 
-## <mark style="color:green;">`<div>`</mark> <mark style="color:green;"></mark><mark style="color:green;">elementlarini yonma yon joylashtirish</mark>
+## <mark style="color:green;">`<div>`</mark> <mark style="color:green;">elementlarini yonma yon joylashtirish</mark>
 
 Veb-sahifalarni yaratishda ko'pincha ikki yoki undan ortiq <mark style="color:red;">`<div>`</mark> elementlarni yonma-yon qilish kerak bo'ladi, masalan:
 
@@ -124,7 +116,7 @@ CSSning <mark style="color:red;">`float`</mark> xususiyati kontentni joylashtiri
 
 ## <mark style="color:green;">Inline-block</mark>
 
-Agar <mark style="color:red;">`<div>`</mark>  elementining <mark style="color:red;">`displey`</mark> xususiyatini <mark style="color:red;">`block`</mark>dan <mark style="color:red;">`inline-block`</mark>ga o'zgartirsangiz, <mark style="color:red;">`<div>`</mark> elementlari endi yonma-yon ko'rsatiladi.
+Agar <mark style="color:red;">`<div>`</mark> elementining <mark style="color:red;">`displey`</mark> xususiyatini <mark style="color:red;">`block`</mark>dan <mark style="color:red;">`inline-block`</mark>ga o'zgartirsangiz, <mark style="color:red;">`<div>`</mark> elementlari endi yonma-yon ko'rsatiladi.
 
 {% code title="Div elementlarini yonma-yon joylashtirish uchun display:inline-blockdan qanday foydalanish kerak:" %}
 ```html

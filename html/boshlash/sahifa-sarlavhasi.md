@@ -4,7 +4,7 @@ Har bir veb-sahifada sahifaning ma'nosini tavsiflovchi sahifa sarlavhasi bo'lish
 
 <mark style="color:red;">`<title>`</mark> elementi sahifaga sarlavha qo'shadi:
 
-> ### Misol:
+> #### Misol:
 >
 > ```html
 > <!DOCTYPE html>
@@ -28,10 +28,10 @@ Sarlavha sahifaning mazmuni va ma'nosini tavsiflashi kerak.
 
 Sahifa sarlavhasi SEO uchun juda muhimdir. Matn qidiruv tizimi algoritmlari tomonidan qidiruv natijalarida sahifalarni ro'yxatga olish tartibini aniqlash uchun ishlatiladi.
 
-<mark style="color:red;">`<title>`</mark> elementi:&#x20;
+<mark style="color:red;">`<title>`</mark> elementi:
 
-* Brauzer asboblar panelida sarlavhani ko'rasatadi&#x20;
-* Sevimlilarga qo'shilganda sahifa uchun sarlavha beradi&#x20;
+* Brauzer asboblar panelida sarlavhani ko'rasatadi
+* Sevimlilarga qo'shilganda sahifa uchun sarlavha beradi
 * Qidiruv tizimi natijalarida sahifa sarlavhasini ko'rsatadi
 
 Shunday ekan, sarlavhani iloji boricha aniq va mazmunli qilishga harakat qiling!
