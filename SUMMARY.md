@@ -31,9 +31,10 @@
     * [Picture elementi](html/boshlash/rasmlar/picture-elementi.md)
   * [Favicon](html/boshlash/favicon.md)
   * [Sahifa sarlavhasi](html/boshlash/sahifa-sarlavhasi.md)
-  <!-- * [Ro'yxatlar](html/boshlash/royxatlar/README.md)
+  * [Ro'yxatlar](html/boshlash/royxatlar/README.md)
     * [Tartiblanmagan ro'yxat](html/boshlash/royxatlar/tartiblanmagan-royxat.md)
     * [Tartiblangan ro'yxat](html/boshlash/royxatlar/tartiblangan-royxat.md)
     * [Tarifli ro'yxatlar](html/boshlash/royxatlar/tarifli-royxatlar.md)
   * [Block & Inline](html/boshlash/block-and-inline.md)
-  * [Div elementi](html/boshlash/div-elementi.md) -->
+  * [Div elementi](html/boshlash/div-elementi.md)
+  * [Klasslar](html/boshlash/klasslar.md)
