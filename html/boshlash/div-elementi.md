@@ -14,7 +14,7 @@ Lorem Ipsum <div>I am a div</div> dolor sit amet.
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div1" %}
 
@@ -51,7 +51,7 @@ div {
 </style> 
 ```
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div3" %}
 
@@ -79,7 +79,7 @@ Bir sahifada bir nechta <mark style="color:red;">`<div>`</mark> konteynerlari bo
 </div> 
 ```
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div4" %}
 
@@ -87,7 +87,7 @@ Bir sahifada bir nechta <mark style="color:red;">`<div>`</mark> konteynerlari bo
 
 Veb-sahifalarni yaratishda ko'pincha ikki yoki undan ortiq <mark style="color:red;">`<div>`</mark> elementlarni yonma-yon qilish kerak bo'ladi, masalan:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Elementlarni yonma-yon tekislashning turli usullari mavjud, ularning barchasi ba'zi CSS uslublarini o'z ichiga oladi. Biz eng keng tarqalgan usullarni ko'rib chiqamiz:
 
@@ -110,7 +110,7 @@ CSSning <mark style="color:red;">`float`</mark> xususiyati kontentni joylashtiri
 </style> 
 ```
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div_float" %}
 
@@ -129,7 +129,7 @@ div {
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div_inline-block" %}
 
@@ -152,7 +152,7 @@ CSSning flex xususiyati ishlashi uchun <mark style="color:red;">`<div>`</mark> e
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div_flex" %}
 
@@ -175,11 +175,11 @@ CSSning grid usuli sizdan <mark style="color:red;">`<div>`</mark> elementlarini 
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div_grid" %}
 
-## HTML teglari
+## <mark style="color:green;">HTML teglari</mark>
 
 | Tag                                                   | Description                            |
 | ----------------------------------------------------- | -------------------------------------- |

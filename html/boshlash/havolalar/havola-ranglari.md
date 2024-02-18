@@ -16,7 +16,7 @@ Standart tarzda, havolalar barcha brauzerlarda quyidagicha ko'rinadi:
 
 Siz havolaning holat ranglarini CSS dan foydalanib o'zgartirishingiz mumkin.
 
-{% code title="Bu yerda tashrif buyurilmagan  havola yashil rangda bo'ladi, tagiga chizilmaydi. Tashrif buyurilgan havola pushti rangda bo'ladi, tagiga chizilmaydi. Active havola sariq rangda va tagiga chizilgan bo'ladi. Bundan tashqari, sichqonchani havola ustiga olib borganda (a: hover) u qizil rangga aylanadi va tagiga chiziladi:" %}
+{% code title="Bu yerda tashrif buyurilmagan  havola yashil rangda bo" %}
 ```html
 <style>
 a:link {
@@ -54,7 +54,7 @@ Bundan tashqari havolalarga CSS orqali stil berish orqali tugma ko'rinishiga oli
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
