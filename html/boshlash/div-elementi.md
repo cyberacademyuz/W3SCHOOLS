@@ -6,11 +6,11 @@ description: <div> elementi boshqa HTML elementlari uchun konteyner sifatida ish
 
 ## <mark style="color:green;">`<div>`</mark> <mark style="color:green;"></mark><mark style="color:green;">elementi</mark>
 
-\<div> elementi default tarzda blok element hisoblanadi, u mavjud barcha bo'sh joylarni to'liq egallab oladi.
+<mark style="color:red;">`<div>`</mark> elementi default tarzda blok element hisoblanadi, u mavjud barcha bo'sh joylarni to'liq egallab oladi.
 
 > ### Misol:
 >
-> \<div> elementi mavjud barcha joyni egallab oladi:
+> <mark style="color:red;">`<div>`</mark> elementi mavjud barcha joyni egallab oladi:
 >
 > ```html
 > Lorem Ipsum <div>I am a div</div> dolor sit amet. 
@@ -26,7 +26,7 @@ description: <div> elementi boshqa HTML elementlari uchun konteyner sifatida ish
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div1" %}
 
-\<div> elementida talab qilinadigan atribut yo'q, lekin <mark style="color:red;">`style`</mark>, <mark style="color:red;">`class`</mark> va <mark style="color:red;">`id`</mark> kabi ixtiyor atributlarni berish mumkin.
+<mark style="color:red;">`<div>`</mark> elementida talab qilinadigan atribut yo'q, lekin <mark style="color:red;">`style`</mark>, <mark style="color:red;">`class`</mark> va <mark style="color:red;">`id`</mark> kabi ixtiyor atributlarni berish mumkin.
 
 ## <mark style="color:green;">Konteyner sifatida</mark> <mark style="color:green;"></mark><mark style="color:green;">`<div>`</mark>
 
@@ -93,13 +93,13 @@ Bir sahifada bir nechta <mark style="color:red;">`<div>`</mark> konteynerlari bo
 
 ## <mark style="color:green;">`<div>`</mark> <mark style="color:green;"></mark><mark style="color:green;">elementlarini yonma yon joylashtirish</mark>
 
-Veb-sahifalarni yaratishda ko'pincha ikki yoki undan ortiq <mark style="color:red;">`<div>`</mark> elementlarni yonma-yon qilishni xohlaysiz, masalan:
+Veb-sahifalarni yaratishda ko'pincha ikki yoki undan ortiq <mark style="color:red;">`<div>`</mark> elementlarni yonma-yon qilish kerak bo'ladi, masalan:
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Elementlarni yonma-yon tekislashning turli usullari mavjud, ularning barchasi ba'zi CSS uslublarini o'z ichiga oladi. Biz eng keng tarqalgan usullarni ko'rib chiqamiz:
 
-## Float
+## <mark style="color:green;">Float</mark>
 
 CSSning <mark style="color:red;">`float`</mark> xususiyati dastlab <mark style="color:red;">`<div>`</mark> elementlarini yonma-yon joylashtirish uchun mo'ljallanmagan, lekin yillar davomida shu maqsadda foydalanilgan.
 
@@ -122,7 +122,7 @@ CSSning <mark style="color:red;">`float`</mark> xususiyati kontentni joylashtiri
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div_float" %}
 
-## Inline-block
+## <mark style="color:green;">Inline-block</mark>
 
 Agar <mark style="color:red;">`<div>`</mark>  elementining <mark style="color:red;">`displey`</mark> xususiyatini <mark style="color:red;">`block`</mark>dan <mark style="color:red;">`inline-block`</mark>ga o'zgartirsangiz, <mark style="color:red;">`<div>`</mark> elementlari endi yonma-yon ko'rsatiladi.
 
@@ -141,7 +141,7 @@ div {
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div_inline-block" %}
 
-## Flex
+## <mark style="color:green;">Flex</mark>
 
 CSS Flexbox Layout moduli float yoki pozitsiyadan foydalanmasdan moslashuvchan tartib tuzilmasini shakllantirishni osonlashtirish uchun taqdim qilingan.
 
@@ -164,7 +164,7 @@ CSSning flex xususiyati ishlashi uchun <mark style="color:red;">`<div>`</mark> e
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div_flex" %}
 
-## Grid
+## <mark style="color:green;">Grid</mark>
 
 CSSning Grid Layout moduli qatorlar va ustunlar bilan gridga asosidagi layout tizimini taklif etadi, bu esa <mark style="color:red;">`float`</mark> va pazitsiyalashdan foydalanmasdan turib veb-sahifalarni yaratishni osonlashtiradi.
 
