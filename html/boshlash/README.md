@@ -8,7 +8,7 @@ HTML o'rganishga oson - Siz bundan rohatlanasiz !
 [<mark style="color:green;">Bizning bepul HTML darsliklarimizni o'rganish</mark>](tanishuv.md)
 {% endhint %}
 
-## HTMLni "Try it yourself" bilan o'rganish oson
+## <mark style="color:green;">HTMLni "Try it yourself" bilan o'rganish oson</mark>
 
 "Try it yourself" editorimiz orqali HTML kodlarni o'zgartirishingiz va natijani ko'rishingiz mumkin:
 
