@@ -35,3 +35,4 @@
     * [Tartiblanmagan ro'yxat](html/boshlash/royxatlar/tartiblanmagan-royxat.md)
     * [Tartiblangan ro'yxat](html/boshlash/royxatlar/tartiblangan-royxat.md)
     * [Tarifli ro'yxatlar](html/boshlash/royxatlar/tarifli-royxatlar.md)
+  * [Block & Inline](html/boshlash/block-and-inline.md)
