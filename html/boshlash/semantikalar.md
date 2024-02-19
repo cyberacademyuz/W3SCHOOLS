@@ -2,7 +2,7 @@
 description: Semantik elementlar = ma'noga ega elementlar.
 ---
 
-# Semantikalar
+# Semantika
 
 ## <mark style="color:green;">Semantik elementlar nima ?</mark>
 
@@ -21,7 +21,7 @@ HTMLda veb-sahifaning turli qismlarini ifodalash uchun ishlatilishi mumkin bo'lg
 * \<article>
 * \<aside>
 * \<details>
-* \<figcaption>&#x20;
+* \<figcaption>
 * \<figure>
 * \<footer>
 * \<header>
@@ -36,11 +36,11 @@ HTMLda veb-sahifaning turli qismlarini ifodalash uchun ishlatilishi mumkin bo'lg
 
 ## <mark style="color:green;">\<section> elementi</mark>
 
-\<section> elementi html fayldagi ma'lum bir bo'limni ifodalaydi.
+<mark style="color:red;">`<section>`</mark> elementi html fayldagi ma'lum bir bo'limni ifodalaydi.
 
-W3C ning HTML qo'llanmasiga  ko'ra: "Section odatda sarlavhali kontentning tematik guruhlanishidir."
+W3C ning HTML qo'llanmasiga ko'ra: "Section odatda sarlavhali kontentning tematik guruhlanishidir."
 
-<mark style="color:red;">\<srction></mark> elementini qayerlarda ishlatish mumkinligiga misollar:
+<mark style="color:red;">`<section>`</mark> elementini qayerlarda ishlatish mumkinligiga misollar:
 
 * Bo'limlar
 * Tanishtiruv qismlar
@@ -49,7 +49,7 @@ W3C ning HTML qo'llanmasiga  ko'ra: "Section odatda sarlavhali kontentning temat
 
 Veb-sahifa odatda tanishtiruv, kontent va kontakt ma'lumotlari uchun bo'limlarga bo'linishi mumkin.
 
-{% code title="HTMLdagi 2ta bo'lim" %}
+{% code title="HTMLdagi 2ta bo'limni ajratish:" %}
 ```html
 <section>
 <h1>WWF</h1>
@@ -69,13 +69,13 @@ Veb-sahifa odatda tanishtiruv, kontent va kontakt ma'lumotlari uchun bo'limlarga
 
 <mark style="color:red;">`<article>`</mark> elementi mustaqil kontentni ifodalaydi.
 
-Article o'zining ma'zmuniga ega bo'lishi kerak va uni veb-saytning qolgan qismidan mustaqil ravishda ajratish imkoniyati bo'lishi kerak.
+Article o'zining ma'zmuniga ega bo'lishi kerak va uni veb-saytning qolgan qismidan mustaqil tarzda ajratish imkoniyati bo'lishi kerak.
 
 <mark style="color:red;">`<article>`</mark> elementini qayerda ishlatish mumkinligiga misollar:
 
 * Forum xabarlarida
 * Blog postlarda
-* Foydalanuvchining izholarida
+* Foydalanuvchining izohlarida
 * Mahsulot uchun kartochkalarda
 * Gazeta maqolalarida
 
@@ -153,7 +153,7 @@ Article o'zining ma'zmuniga ega bo'lishi kerak va uni veb-saytning qolgan qismid
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_article2" %}
 
-<mark style="color:red;">`<article>`</mark> elementini <mark style="color:red;">`<section>`</mark> ichiga joylashtirasizmi yoki aksimi ?
+<mark style="color:red;">`<article>`</mark> elementini <mark style="color:red;">`<section>`</mark> ichiga joylashtirasizmi yoki aksinchami ?
 
 Ushbu elementlarni qanday joylashtirish kerakligiga qaror qabul qilish uchun biror bir ta'rifdan foydalana olamizmi ? Albatta yo'q.
 
@@ -169,7 +169,7 @@ Shunday ekan, siz <mark style="color:red;">`<section>`</mark> elementlarni o'z i
 * logotip yoki ikonka
 * mualliflik ma'lumotlari
 
-Eslatma: Bitta HTMLda bir nechta `<header>` elementlari bo'lishi mumkin. Lekin  <mark style="color:red;">\<header></mark> elementi <mark style="color:red;">`<footer>`</mark>, <mark style="color:red;">`<address>`</mark> yoki boshqa <mark style="color:red;">`<header>`</mark> elementi ichiga joylashtirilmaydi.
+Eslatma: Bitta HTMLda bir nechta `<header>` elementlari bo'lishi mumkin. Lekin <mark style="color:red;">\<header></mark> elementi <mark style="color:red;">`<footer>`</mark>, <mark style="color:red;">`<address>`</mark> yoki boshqa <mark style="color:red;">`<header>`</mark> elementi ichiga joylashtirilmaydi.
 
 {% code title="<article> uchun header" %}
 ```html
@@ -201,7 +201,7 @@ Eslatma: Bitta HTMLda bir nechta `<header>` elementlari bo'lishi mumkin. Lekin  
 
 Bir sahifada bir nechta <mark style="color:red;">`<footer>`</mark> elementlaridan foydalanishingiz mumkin.
 
-{% code title="Sahifaning footer bo'limi" %}
+{% code title="Sahifaning footer bo" %}
 ```html
 <footer>
   <p>Author: Hege Refsnes</p>
@@ -214,7 +214,7 @@ Bir sahifada bir nechta <mark style="color:red;">`<footer>`</mark> elementlarida
 
 ## <mark style="color:green;">\<nav> elementi</mark>
 
-<mark style="color:red;">\<nav></mark> elementi navigatsiya havolalarini ifodalaydi.
+<mark style="color:red;">`<nav>`</mark> elementi navigatsiya havolalarini ifodalaydi.
 
 {% hint style="warning" %}
 Eslab qoling, sahifadagi barcha havolalar<mark style="color:red;">`<nav>`</mark>elementining ichida bo'lishi kerak emas. <mark style="color:red;">`<nav>`</mark> elementi faqat navigatsiya havolalarining asosiy bloklari uchun mo'ljallangan.
@@ -241,7 +241,7 @@ Brauzerlar nogiron foydalanuvchilar uchun ekranni o'qish vositasi sifatida ushbu
 
 <mark style="color:red;">`<aside>`</mark> kontenti, boshqa bo'lim kontentlari bilan bilvosita bog'liq bo'lishi kerak.
 
-{% code title="Ba'zi ma'lumotlarni u joylashgan ma'lumotlardan tashqarida ko'rsatish:" %}
+{% code title="Ba" %}
 ```html
 <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
 
@@ -254,7 +254,7 @@ Brauzerlar nogiron foydalanuvchilar uchun ekranni o'qish vositasi sifatida ushbu
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_aside" %}
 
-{% code title="<aside> elementiga stil berish uchun CSSdan foydalaning" %}
+{% code title="<aside> elementiga stil berish uchun CSSdan foydalanish:" %}
 ```html
 <html>
 <head>
@@ -312,18 +312,18 @@ W3C ga ko'ra: "Semantika Internetdagi ma'lumotlarni, dasturlar, korxonalar va ko
 
 Quyidagi ro'yhatda HTMLning ba'zi semantik elementlari keltirilgan:
 
-| Tag                                                                 | Description                                                                                 |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [\<article>](https://www.w3schools.com/tags/tag\_article.asp)       | Defines independent, self-contained content                                                 |
-| [\<aside>](https://www.w3schools.com/tags/tag\_aside.asp)           | Defines content aside from the page content                                                 |
-| [\<details>](https://www.w3schools.com/tags/tag\_details.asp)       | Defines additional details that the user can view or hide                                   |
-| [\<figcaption>](https://www.w3schools.com/tags/tag\_figcaption.asp) | Defines a caption for a \<figure> element                                                   |
-| [\<figure>](https://www.w3schools.com/tags/tag\_figure.asp)         | Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc. |
-| [\<footer>](https://www.w3schools.com/tags/tag\_footer.asp)         | Defines a footer for a document or section                                                  |
-| [\<header>](https://www.w3schools.com/tags/tag\_header.asp)         | Specifies a header for a document or section                                                |
-| [\<main>](https://www.w3schools.com/tags/tag\_main.asp)             | Specifies the main content of a document                                                    |
-| [\<mark>](https://www.w3schools.com/tags/tag\_mark.asp)             | Defines marked/highlighted text                                                             |
-| [\<nav>](https://www.w3schools.com/tags/tag\_nav.asp)               | Defines navigation links                                                                    |
-| [\<section>](https://www.w3schools.com/tags/tag\_section.asp)       | Defines a section in a document                                                             |
-| [\<summary>](https://www.w3schools.com/tags/tag\_summary.asp)       | Defines a visible heading for a \<details> element                                          |
-| [\<time>](https://www.w3schools.com/tags/tag\_time.asp)             | Defines a date/time                                                                         |
+| Teg nomi                                                            | Tarifi                                                                                                              |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| [\<article>](https://www.w3schools.com/tags/tag\_article.asp)       | Mustaqil kontentni ifodalaydi                                                                                       |
+| [\<aside>](https://www.w3schools.com/tags/tag\_aside.asp)           | O'zi joylashtirilgan kontentdan tashqari ba'zi tarkibiy qismni ifodalaydi                                           |
+| [\<details>](https://www.w3schools.com/tags/tag\_details.asp)       | Foydalanuvchi ko'rishi yoki yashirishi mumkin bo'lgan qo'shimcha ma'lumotlarni ifodalaydi                           |
+| [\<figcaption>](https://www.w3schools.com/tags/tag\_figcaption.asp) | <mark style="color:red;">`<figure>`</mark> elementi uchun sarlavhani ifodalaydi                                     |
+| [\<figure>](https://www.w3schools.com/tags/tag\_figure.asp)         | Illyustratsiyalar, diagrammalar, fotosuratlar, kodlar ro'yxati va shu kabi boshqa mustaqil kontentlarni ifodalaydi. |
+| [\<footer>](https://www.w3schools.com/tags/tag\_footer.asp)         | Sahifa yoki bo'lim uchun footerni ifodalaydi                                                                        |
+| [\<header>](https://www.w3schools.com/tags/tag\_header.asp)         | Sahifa yoki bo'lim uchun Headerni ifodalaydi                                                                        |
+| [\<main>](https://www.w3schools.com/tags/tag\_main.asp)             | Sahifaning asosiy qismini ifodalaydi                                                                                |
+| [\<mark>](https://www.w3schools.com/tags/tag\_mark.asp)             | Belgilangan va ajratib ko'rsatilgan matn yaratadi                                                                   |
+| [\<nav>](https://www.w3schools.com/tags/tag\_nav.asp)               | Navigatsiya havolalarini ifodalaydi                                                                                 |
+| [\<section>](https://www.w3schools.com/tags/tag\_section.asp)       | Sahifadagi ma'lum bir bo'limni ifodalaydi                                                                           |
+| [\<summary>](https://www.w3schools.com/tags/tag\_summary.asp)       | <mark style="color:red;">`<details>`</mark> elementi uchun ko'rinadigan sarlavhani ifodalayd                        |
+| [\<time>](https://www.w3schools.com/tags/tag\_time.asp)             | Sana/vaqtni ifodalaydi                                                                                              |

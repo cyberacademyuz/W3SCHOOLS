@@ -38,4 +38,4 @@
   * [Block & Inline](html/boshlash/block-and-inline.md)
   * [Div elementi](html/boshlash/div-elementi.md)
   * [Klasslar](html/boshlash/klasslar.md)
-  * [Semantikalar](html/boshlash/semantikalar.md)
+  * [Semantika](html/boshlash/semantikalar.md)
