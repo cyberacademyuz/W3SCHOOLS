@@ -55,7 +55,7 @@ div {
 <mark style="color:red;">`text-align-last`</mark> xususiyati matnning oxiridagi qator qanday joylashishi kerakligini belgilaydi.
 
 {% tabs %}
-{% tab title="Ruby" %}
+{% tab title="CSS" %}
 Uchta <mark style="color:red;">`<p>`</mark> elementlarini joylashuvini o'zgartirish:
 
 ```css
@@ -98,7 +98,7 @@ p {
 <mark style="color:red;">`vertical-align`</mark> xususiyati elementni vertikal joylashtirish uchun yordam beradi:
 
 {% tabs %}
-{% tab title="Ruby" %}
+{% tab title="CSS" %}
 Matn ichidagi rasm vertikal joylashtirilayapti:
 
 ```css

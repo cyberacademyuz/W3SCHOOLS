@@ -28,7 +28,7 @@ Element selektori HTML elementlarini nomiga qarab tanlaydi.message = "hello worl
 {% tab title="CSS" %}
 Ushbu misolda barcha <mark style="color:red;">`<p>`</mark> elementlari o'rtada turadi va qizil rangda bo'ladi:
 
-```python
+```css
 p {
   text-align: center;
   color: red;
@@ -93,7 +93,7 @@ Ushbu misolda faqatgina class="center" ga ega
 
 elementlari tanlangan va stil qiymatlari qizil va joylashuvi o'rtaga o'zgartirilgan:
 
-```
+```css
 p.center {
   text-align: center;
   color: red;
@@ -104,15 +104,13 @@ p.center {
 {% endtab %}
 {% endtabs %}
 
-
-
 HTML elementlari bittadan ortiq classlarni o'z ichiga olishi mumkin.
 
 {% tabs %}
 {% tab title="CSS" %}
 Ushbu misolda <mark style="color:red;">`<p>`</mark> elementi bir vaqtni o'zida <mark style="color:red;">`class="center"`</mark> va <mark style="color:red;">`class="large"`</mark> larni jamlamoqda:
 
-```python
+```html
 <p class="center large">This paragraph refers to two classes.</p>
 ```
 {% endtab %}
@@ -130,14 +128,12 @@ Universal selektor sahifadagi barcha HTML elementlarini belgilaydi.
 {% tab title="CSS" %}
 CSS qoidasiga ko'ra quyidagi misolda barcha HTML elementlari tanlanadi:
 
-{% code title="" %}
 ```css
 * {
   text-align: center;
   color: blue;
 }
 ```
-{% endcode %}
 
 {% embed url="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_element_class2" %}
 {% endtab %}
@@ -166,7 +162,7 @@ p {
 }
 ```
 
-Bunday uzun kodni  guruhlash selektorlari yordamida qisqartirishingiz mumkin.
+Bunday uzun kodni guruhlash selektorlari yordamida qisqartirishingiz mumkin.
 
 Guruh selektorlaridan foydalanish uchun har bir element nomidan keyin vergul orqali ajratish kerak.
 
@@ -185,11 +181,11 @@ h1, h2, p {
 
 ### Barcha oddiy CSS selektorlari <a href="#barcha-oddiy-css-selektorlari" id="barcha-oddiy-css-selektorlari"></a>
 
-| Selektor              | Misol      | Ta'rif                                                                                                                         |
-| --------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| _#id_                 | #firstname | <mark style="color:red;">`id="firstname"`</mark> attributiga ega elementni tanlaydi                                            |
-| _.class_              | .intro     | class="intro" ga ega elementlarni tanlaydi                                                                                     |
-| _element.class_       | p.intro    |  Faqatgina <mark style="color:red;">`class="intro"`</mark> ga ega <mark style="color:red;">`<p>`</mark> elementlarini tanlaydi |
-| \*                    | \*         | Barcha elementlarni tanlaydi                                                                                                   |
-| _element_             | p          | Barcha <mark style="color:red;">`<p>`</mark> elementlarini tanlaydi                                                            |
-| _element,element,..._ | div, p     | Barcha <mark style="color:red;">`<div>`</mark> va <mark style="color:red;">`<p>`</mark> elementlarini tanlaydi                 |
+| Selektor              | Misol      | Ta'rif                                                                                                                        |
+| --------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| _#id_                 | #firstname | <mark style="color:red;">`id="firstname"`</mark> attributiga ega elementni tanlaydi                                           |
+| _.class_              | .intro     | class="intro" ga ega elementlarni tanlaydi                                                                                    |
+| _element.class_       | p.intro    | Faqatgina <mark style="color:red;">`class="intro"`</mark> ga ega <mark style="color:red;">`<p>`</mark> elementlarini tanlaydi |
+| \*                    | \*         | Barcha elementlarni tanlaydi                                                                                                  |
+| _element_             | p          | Barcha <mark style="color:red;">`<p>`</mark> elementlarini tanlaydi                                                           |
+| _element,element,..._ | div, p     | Barcha <mark style="color:red;">`<div>`</mark> va <mark style="color:red;">`<p>`</mark> elementlarini tanlaydi                |

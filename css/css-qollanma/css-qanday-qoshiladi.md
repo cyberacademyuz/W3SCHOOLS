@@ -51,7 +51,7 @@ Quyida "**mystyle.css**" fayli qanday ko'rinishi keltirilgan:
 
 {% tabs %}
 {% tab title="CSS" %}
-{% code title=""mystyle.css"" %}
+{% code title="mystyle.css" %}
 ```css
 body {
   background-color: lightblue;
@@ -138,8 +138,6 @@ Inline stillar tegishli elementning <mark style="color:red;">`style`</mark> atri
 {% endtab %}
 {% endtabs %}
 
-
-
 {% hint style="warning" %}
 **Maslahat:** Inline css stylesheetning ko'pgina afzalliklarini yo'qotadi. Ushbu usuldan kamdan kam holatda foydalaning.
 {% endhint %}
@@ -165,7 +163,7 @@ h1 {
 {% endcode %}
 
 {% tabs %}
-{% tab title="Ruby" %}
+{% tab title="HTML" %}
 Agarda Internal CSS, External CSS ulanishdian keyin yozilgan bo'lsa, unda <mark style="color:red;">`<h1>`</mark>"olovrang" bo'lib qoladi:
 
 ```html
@@ -183,10 +181,8 @@ h1 {
 {% endtab %}
 {% endtabs %}
 
-
-
 {% tabs %}
-{% tab title="Ruby" %}
+{% tab title="HTML" %}
 Agarda Internal CSS <mark style="color:red;">`<link>`</mark> tegidan oldin yozilgan bo'lsa unda External CSS ning qiymatlari hisobga olinib <mark style="color:red;">`<h1>`</mark> elementlari "ko'k rang" bo'lib qoladi:
 
 ```html
@@ -204,7 +200,7 @@ h1 {
 {% endtab %}
 {% endtabs %}
 
-## Kaskadlash tartibi
+## <mark style="color:green;">Kaskadlash tartibi</mark>
 
 HTML element uchun bir nechta stil qiymatlari berilsa qaysi biri ishlatiladi ?
 

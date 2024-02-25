@@ -22,7 +22,7 @@ Bu yerda 4 xil stil bilan tasvirlangan HTML sahifani ko'rsatganmiz. Turlicha sti
 CSS web sahifalarni bezaklarini, dizaynini, ko'rinishini va har xil qurilmalarda qanday ko'rsatilishi kerakligini belgilaydi.
 
 {% tabs %}
-{% tab title="Python" %}
+{% tab title="CSS" %}
 ```css
 body {
   background-color: lightblue;

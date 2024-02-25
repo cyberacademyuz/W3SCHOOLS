@@ -13,7 +13,7 @@ CSSning izohlari <mark style="color:red;">`<style>`</mark> elementi ichida yozil
 {% tabs %}
 {% tab title="CSS" %}
 ```css
-/* This is a single-line comment */
+/* Bu bir qatorli izoh */
 p {
   color: red;
 }
@@ -56,9 +56,7 @@ Izohlarni uzunroq qilib yozishingiz ham mumkin:
 {% tabs %}
 {% tab title="CSS" %}
 ```css
-/* This is
-a multi-line
-comment */
+/* TBu ko'p qatorli izoh */
 
 p {
   color: red;
@@ -69,7 +67,7 @@ p {
 {% endtab %}
 {% endtabs %}
 
-## HTML va CSS izohlari <a href="#html-va-css-izohlari" id="html-va-css-izohlari"></a>
+## <mark style="color:green;">HTML va CSS izohlari</mark> <a href="#html-va-css-izohlari" id="html-va-css-izohlari"></a>
 
 HTML darsligida <mark style="color:red;">`<!--...-->`</mark> orqali izoh qo'shishingiz mumkinligini o'rgangan edingiz.
 
@@ -83,7 +81,7 @@ Quyidagi misolda, HTML va CSS izohlarini birlashtiramizmessage = "hello world"
 <head>
 <style>
 p {
-  color: red; /* Set text color to red */
+  color: red; /* Qizil rang berish */
 }
 </style>
 </head>
@@ -91,7 +89,7 @@ p {
 
 <h2>My Heading</h2>
 
-<!-- These paragraphs will be red -->
+<!-- Bu paragraflar qizil rangda bo'ladi -->
 <p>Hello World!</p>
 <p>This paragraph is styled with CSS.</p>
 <p>CSS comments are not shown in the output.</p>
