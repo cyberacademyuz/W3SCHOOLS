@@ -39,3 +39,7 @@
   * [Div elementi](html/boshlash/div-elementi.md)
   * [Klasslar](html/boshlash/klasslar.md)
   * [Semantika](html/boshlash/semantikalar.md)
+
+## CSS
+
+* [Page 1](css/page-1.md)

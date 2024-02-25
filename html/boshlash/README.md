@@ -12,6 +12,8 @@ HTML o'rganishga oson - Siz bundan rohatlanasiz !
 
 "Try it yourself" editorimiz orqali HTML kodlarni o'zgartirishingiz va natijani ko'rishingiz mumkin:
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <!DOCTYPE html>
 <html>
@@ -28,6 +30,8 @@ HTML o'rganishga oson - Siz bundan rohatlanasiz !
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default" %}
+{% endtab %}
+{% endtabs %}
 
 Bu qanday ishlashini ko'rish uchun yuqoridagi havolani bosing.
 

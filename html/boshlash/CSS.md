@@ -37,6 +37,8 @@ Inline CSS elementning <mark style="color:red;">`style`</mark> atributidan foyda
 
 Quyidagi misol, <mark style="color:red;">`<h1>`</mark> elementidagi matn rangini ko'k va <mark style="color:red;">`<p>`</mark> elementidagi matn rangini qizil rangga o'zgartiradi:
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <h1 style="color:blue;">A Blue Heading</h1>
 
@@ -44,6 +46,8 @@ Quyidagi misol, <mark style="color:red;">`<h1>`</mark> elementidagi matn rangini
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_inline" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">Internal CSS</mark>
 
@@ -53,6 +57,8 @@ Internal CSS HTML sahifaning <mark style="color:red;">`<head>`</mark> qismida <m
 
 Quyidagi misol ushbu sahifadagi barcha <mark style="color:red;">`<h1>`</mark> elementlarning matn rangini ko‘k rangga va barcha <mark style="color:red;">`<p>`</mark> elementlarning matn rangini esa qizil rangga o'zgartiradi. Bundan tashqari, sahifaning orqa fon ranggi "**powderblue**" rangi bilan ko'rsatiladi:
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <!DOCTYPE html>
 <html>
@@ -73,6 +79,8 @@ p    {color: red;}
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_internal" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">External CSS</mark>
 
@@ -80,6 +88,8 @@ Bir qancha HTML sahifalarga stil berish uchun external CSSdan foydalaniladi.
 
 Tashqi stillardan foydalanish uchun har bir HTML sahifning <mark style="color:red;">`<head>`</mark> qismiga havola qoʻshing:
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <!DOCTYPE html>
 <html>
@@ -96,6 +106,8 @@ Tashqi stillardan foydalanish uchun har bir HTML sahifning <mark style="color:re
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_external" %}
+{% endtab %}
+{% endtabs %}
 
 Tashqi stillar istalgan matn muharririda yozilishi mumkin. Stillar yoziladigan faylda hech qanday HTML kod bo'lmaydi va .css kengaytmasi bilan saqlanishi kerak.
 
@@ -127,7 +139,10 @@ CSSning <mark style="color:red;">`font-family`</mark> xususiyati matn shrifti qa
 
 CSSning <mark style="color:red;">`font-size`</mark> xususiyati matn o'lchami qanday bo'lishi kerakligini belgilaydi.
 
-{% code title="CSSning color, font-family va font-size xususiyatlaridan foydalaning" %}
+{% tabs %}
+{% tab title="HTML" %}
+CSSning color, font-family va font-size xususiyatlaridan foydalaning
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -153,9 +168,10 @@ p {
 </body>
 </html>
 ```
-{% endcode %}
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_fonts" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">CSS Border</mark>
 
@@ -163,73 +179,97 @@ CSSning <mark style="color:red;">`border`</mark> xususiyati HTML elementining at
 
 **Maslahat**: Deyarli barcha HTML elementlari uchun chegara belgilashingiz mumkin.
 
-{% code title="CSSning border xususiyatidan foydalaning:" %}
+{% tabs %}
+{% tab title="HTML" %}
+CSSning border xususiyatidan foydalaning:
+
 ```css
 p {
   border: 2px solid powderblue;
 }
 ```
-{% endcode %}
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_borders" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">CSS Padding</mark>
 
 CSSning <mark style="color:red;">`padding`</mark> xususiyati matn va uning chegara o'rtasidagi bo'sh joyni bildiradi.
 
-{% code title="CSSning border va padding xususiyatidan foydalanish" %}
+{% tabs %}
+{% tab title="HTML" %}
+CSSning border va padding xususiyatidan foydalanish
+
 ```css
 p {
   border: 2px solid powderblue;
   padding: 30px;
 }
 ```
-{% endcode %}
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_padding" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">CSS Margin</mark>
 
-CSSning `margin` xususiyati chegaraning tashqi tomonidagi bo'sh joyni bildiradi.
+CSSning <mark style="color:red;">`margin`</mark> xususiyati chegaraning tashqi tomonidagi bo'sh joyni bildiradi.
 
-{% code title="CSSning border va margin xususiyatidan foydalaning" %}
+{% tabs %}
+{% tab title="HTML" %}
+CSSning border va margin xususiyatidan foydalaning:
+
 ```css
 p {
   border: 2px solid powderblue;
   margin: 50px;
 }
 ```
-{% endcode %}
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_margin" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">Tashqi CSS faylni ulash</mark>
 
 Tashqi stillarni, uning to'liq URL manzili yoki veb-sahifa fayliga nisbatan ichki joylashuv yo'li bilan ulash mumkin.
 
-> Bu misolda CSS faylning to'liq URLini ulashdan foydalanilgan
->
-> ```html
-> <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
-> ```
+{% tabs %}
+{% tab title="HTML" %}
+Bu misolda CSS faylning to'liq URLini ulashdan foydalanilgan:
+
+```html
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_external_url" %}
+{% endtab %}
+{% endtabs %}
 
-> Ushbu misolda joriy veb-saytdagi html papkasida joylashgan CSS fayl ulangan:
->
-> ```html
-> <link rel="stylesheet" href="/html/styles.css">
-> ```
+{% tabs %}
+{% tab title="HTML" %}
+Ushbu misolda joriy veb-saytdagi html papkasida joylashgan CSS fayl ulangan:
+
+```html
+<link rel="stylesheet" href="/html/styles.css">
+```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_external_relative" %}
+{% endtab %}
+{% endtabs %}
 
-> Ushbu misolda joriy sahifa bilan bir xil papkada joylashgan CSS fayl ulangan:
->
-> ```html
-> <link rel="stylesheet" href="styles.css">
-> ```
+{% tabs %}
+{% tab title="HTML" %}
+Ushbu misolda joriy sahifa bilan bir xil papkada joylashgan CSS fayl ulangan:
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_external" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">Bo'lim xulosasi</mark>
 

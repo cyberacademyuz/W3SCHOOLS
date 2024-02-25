@@ -1,19 +1,25 @@
-# Paragraflar
+---
+description: Paragraf har doim yangi qatordan boshlanadi va odatda matnning bloki bo'ladi.
+---
 
-Paragraf har doim yangi qatordan boshlanadi va odatda matnning **bloki** bo'ladi.
+# Paragraflar
 
 ## <mark style="color:green;">HTML Paragraflar</mark>
 
 HTMLda <mark style="color:red;">`<p>`</mark> elementi paragrafni ifodalaydi.
 
-Paragraflar har doim yangi qatordan boshlanadi va  brauzerlar avtomatik tarzda paragrafning tepa va pastki qismiga boʻsh joy (**margin**) qoʻshadi.
+Paragraflar har doim yangi qatordan boshlanadi va brauzerlar avtomatik tarzda paragrafning tepa va pastki qismiga boʻsh joy (**margin**) qoʻshadi.
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <p>Bu paragraf.</p>
 <p>Bu boshqa paragraf.</p>
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs1" %}
+{% endtab %}
+{% endtabs %}
 
 ### <mark style="color:green;">Ekranda ko'rsatilishi</mark>
 
@@ -25,6 +31,8 @@ HTML dagi kodingizga qo'shimcha bo'sh joylar yoki qo'shimcha qatorlar qo'shish o
 
 Sahifa brauzerda ko'rsatilganida, brauzer avtomatik tarzda qo'shimcha bo'sh joylarni va qatorlarni olib tashlaydi:
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <p>
 Bu paragraf
@@ -44,6 +52,8 @@ bunga e'tibor    qilmaydi
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs2" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">Horizontal rule</mark>
 
@@ -51,6 +61,8 @@ bunga e'tibor    qilmaydi
 
 <mark style="color:red;">`<hr>`</mark> elementi HTML sahifada kontentni ajratib turish uchun foydalaniladi.
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <h1>Bu 1-sarlavha </h1>
 <p>Bu bir matn.</p>
@@ -61,6 +73,8 @@ bunga e'tibor    qilmaydi
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings_hr" %}
+{% endtab %}
+{% endtabs %}
 
 <mark style="color:red;">`<hr>`</mark> tegi bo'sh teg hisoblanadi, ya'ni unda yopiluvchi teg yo'q.
 
@@ -70,16 +84,22 @@ HTMLda <mark style="color:red;">`<br>`</mark> elementi qatorni tugatishni ifodal
 
 Agar yangi paragrafdan boshlamasdan qatorni to'xtatish (yangi qatorga o'tish)ni hohlasangiz <mark style="color:red;">`<br>`</mark> dan foydalaning.
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <p>Bu<br>to'htatiluvchi satrli<br>paragraf</p>
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">She'r muammosi</mark>
 
 Ushbu she'r ekranda bitta qatorda ko'rsatiladi:
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <p>
   My Bonnie lies over the ocean.
@@ -93,6 +113,8 @@ Ushbu she'r ekranda bitta qatorda ko'rsatiladi:
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_poem" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">Yechim - HTMLning \<pre> elementi</mark>
 
@@ -100,6 +122,8 @@ HTMLdagi <mark style="color:red;">`<pre>`</mark> elementi formatlangan matnni if
 
 <mark style="color:red;">`<pre>`</mark> elementi ichidagi matn, belgilangan turdagi shriftda (odatda [Courier](https://www.dafont.com/theme.php?cat=503\&text=Courier))da ko'rsatiladi va u bo'sh joyni ham yangi qatorlarni ham saqlaydi:
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <pre>
   My Bonnie lies over the ocean.
@@ -113,3 +137,5 @@ HTMLdagi <mark style="color:red;">`<pre>`</mark> elementi formatlangan matnni if
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_pre" %}
+{% endtab %}
+{% endtabs %}

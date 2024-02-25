@@ -12,6 +12,8 @@ HTML - hujjatning o'zi <mark style="color:red;">`<html>`</mark> bilan boshlanadi
 
 HTML hujjatdagi ma'lumotlarning brauzerda ko'rinadigan qismi <mark style="color:red;">`<body>`</mark> va <mark style="color:red;">**`</body>`**</mark> teglari orasida joylashadi.
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <!DOCTYPE html>
 <html>
@@ -21,10 +23,12 @@ HTML hujjatdagi ma'lumotlarning brauzerda ko'rinadigan qismi <mark style="color:
 <p>Mening birinchi paragrafim</p>
 
 </body>
-</html> 
+</html>
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_document" %}
+{% endtab %}
+{% endtabs %}
 
 ### <mark style="color:green;">\<!DOCTYPE> deklaratsiyasi</mark>
 
@@ -44,8 +48,10 @@ HTML5 uchun <mark style="color:red;">`<!DOCTYPE>`</mark> deklaratsiyasi:
 
 HTML sarlavhalari <mark style="color:red;">\<h1></mark> tegidan <mark style="color:red;">\<h6></mark> teg-gacha ifodalaniladi.
 
-`<h1>` muhim sarlavhalar uchun ishlatiladi, `<h6>` esa uncha muhim bo'lmagan sarlavhalar uchun ishlatiladi:
+<mark style="color:red;">`<h1>`</mark> muhim sarlavhalar uchun ishlatiladi, <mark style="color:red;">`<h6>`</mark> esa uncha muhim bo'lmagan sarlavhalar uchun ishlatiladi:
 
+{% tabs %}
+{% tab title="Ruby" %}
 ```html
 <h1>Bu 1 - sarlavha</h1>
 <h2>Bu 2 - sarlavha</h2>
@@ -53,29 +59,39 @@ HTML sarlavhalari <mark style="color:red;">\<h1></mark> tegidan <mark style="col
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings" %}
+{% endtab %}
+{% endtabs %}
 
 ### <mark style="color:green;">HTML paragraf</mark>
 
-HTML paragraflari `<p>` tegi bilan ifodalanadi.
+HTML paragraflari <mark style="color:red;">`<p>`</mark> tegi bilan ifodalanadi.
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <p>Bu paragraf</p>
 <p>Bu boshqa paragraf</p>
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_paragraphs" %}
+{% endtab %}
+{% endtabs %}
 
 ### <mark style="color:green;">HTML havolalar</mark>
 
-HTML havolalar <mark style="color:red;">\<a></mark> tegi bilan yaratiladi.
+HTML havolalar <mark style="color:red;">`<a>`</mark> tegi bilan yaratiladi.
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
- <a href="https://www.w3schools.com">Bu havola</a>
+<a href="https://www.w3schools.com">Bu havola</a>
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_link" %}
+{% endtab %}
+{% endtabs %}
 
-Havolaning qaysi manzilga yo'naltirilishi <mark style="color:red;">href</mark> atributida ko'rsatiladi.
+Havolaning qaysi manzilga yo'naltirilishi <mark style="color:red;">`href`</mark> atributida ko'rsatiladi.
 
 Atributlar HTML elementlari haqida qo'shimcha ma'lumot berish uchun ishlatiladi.
 
@@ -83,20 +99,24 @@ Atributlar haqida keyingi darslarda ko'proq ma'lumot olasiz.
 
 ### <mark style="color:green;">HTML Rasmlar</mark>
 
-HTMLda rasmlar <mark style="color:red;">\<img></mark> tegi yordamida qo'shiladi.
+HTMLda rasmlar <mark style="color:red;">`<img>`</mark> tegi yordamida qo'shiladi.
 
 Rasmning fayl joylashuvi <mark style="color:red;">`src`</mark> atributiga beriladi. Rasm haqida qisqacha ma'lumot <mark style="color:red;">`alt`</mark> attributida, rasmning kengligi <mark style="color:red;">`width`</mark> va eni <mark style="color:red;">`height`</mark> attributi yordamida amalga oshiriladi.
 
+{% tabs %}
+{% tab title="Ruby" %}
 ```html
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"> 
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_img" %}
+{% endtab %}
+{% endtabs %}
 
 ### <mark style="color:green;">HTML manbalarini (source code-larni) qanday ko'rish mumkin ?</mark>
 
-Biror bir veb-sahifaning html code-larini ko'rish uchun kompyuteringizdagi f12 tugmasini bosing.
+Biror bir veb-sahifaning html code-larini ko'rish uchun kompyuteringizdagi _**f12**_ tugmasini bosing.
 
 Yoki bo'lmasam sichqonchaning o'ng tugmasini bosganingizda paydo bo'lgan menyudan "**inspect**" bo'limini tanlash orqali ko'rish mumkin.
 
-Yana bir yo'li esa `ctrl + shift + i` yoki `ctrl + shift + c` tugmalarini bosgan holda ko'rish imkoniyatiga ega bo'lasiz.
+Yana bir yo'li esa <mark style="color:red;">`ctrl + shift + i`</mark> yoki <mark style="color:red;">`ctrl + shift + c`</mark> tugmalarini bosgan holda ko'rish imkoniyatiga ega bo'lasiz.

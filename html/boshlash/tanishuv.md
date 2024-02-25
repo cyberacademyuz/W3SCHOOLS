@@ -13,6 +13,8 @@ HTML web sahifalar yaratish uchun standart markuplash tili.
 
 ## <mark style="color:green;">Oddiy HTML hujjat</mark>
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <!DOCTYPE html>
 <html>
@@ -29,28 +31,30 @@ HTML web sahifalar yaratish uchun standart markuplash tili.
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">Misol orqali tushuntirish</mark>
 
-* <mark style="color:red;">\<!DOCTYPE html></mark> hujjat HTML5 da yozilganini bildiradi.
-* <mark style="color:red;">\<html></mark> - HTML sahifaning eng asosiy (root) elementi hisoblanadi.
-* <mark style="color:red;">\<head></mark> - ​veb sahifa haqidagi meta-ma'lumotlarni saqlovchi element. Meta ma'lumotlar haqida keyingi darslarda gaplashamiz.
-* <mark style="color:red;">\<title></mark> - veb sahifaning nomini saqlovchi element ( sahifa nomi brauzerda ochilgan har bir oynaning sarlavhalar qatorida ko'rsatiladi).
-* <mark style="color:red;">\<body></mark> - veb sahifaning tana (body) qismidagi foydalanuvchilarga ko'rinadigan sarlavha, paragraflar, rasmlar, havolalar(hyperlink), jadvallar, ro'yxatlar kabi kontentni saqlovchi element.
-* <mark style="color:red;">\<h1></mark> - eng katta o'lchamdagi sarlavha elementi.
-* <mark style="color:red;">\<p></mark> - paragraf elementi.
+* <mark style="color:red;">`<!DOCTYPE html>`</mark> hujjat HTML5 da yozilganini bildiradi.
+* <mark style="color:red;">`<html>`</mark> - HTML sahifaning eng asosiy (root) elementi hisoblanadi.
+* <mark style="color:red;">`<head>`</mark> - ​veb sahifa haqidagi meta-ma'lumotlarni saqlovchi element. Meta ma'lumotlar haqida keyingi darslarda gaplashamiz.
+* <mark style="color:red;">`<title>`</mark> - veb sahifaning nomini saqlovchi element ( sahifa nomi brauzerda ochilgan har bir oynaning sarlavhalar qatorida ko'rsatiladi).
+* <mark style="color:red;">`<body>`</mark> - veb sahifaning tana (body) qismidagi foydalanuvchilarga ko'rinadigan sarlavha, paragraflar, rasmlar, havolalar(hyperlink), jadvallar, ro'yxatlar kabi kontentni saqlovchi element.
+* <mark style="color:red;">`<h1>`</mark> - eng katta o'lchamdagi sarlavha elementi.
+* <mark style="color:red;">`<p>`</mark> - paragraf elementi.
 
 ## <mark style="color:green;">HTML elementlari nima ?</mark>
 
 HTML elementlari, biror ma'lumotni o'z ichiga olgan ochiluvchi va yopiluvchi tegni bildiradi.
 
-<mark style="color:blue;"><</mark><mark style="color:red;">tegnomi</mark><mark style="color:blue;">></mark> Shu yerga biror ma'lumot kiritiladi <mark style="color:blue;"><</mark><mark style="color:red;">/tegnomi</mark><mark style="color:blue;">></mark>
+<mark style="color:blue;">`<`</mark><mark style="color:red;">`tegnomi`</mark><mark style="color:blue;">`>`</mark> Shu yerga biror ma'lumot kiritiladi <mark style="color:blue;">`<`</mark><mark style="color:red;">`/tegnomi`</mark><mark style="color:blue;">`>`</mark>
 
-<mark style="color:blue;"><</mark><mark style="color:red;">h1</mark><mark style="color:blue;">></mark> Mening birinchi sarlavham <mark style="color:blue;"><</mark><mark style="color:red;">/h1</mark><mark style="color:blue;">></mark>
+<mark style="color:blue;">`<`</mark><mark style="color:red;">`h1`</mark><mark style="color:blue;">`>`</mark> Mening birinchi sarlavham <mark style="color:blue;">`<`</mark><mark style="color:red;">`/h1`</mark><mark style="color:blue;">`>`</mark>
 
-<mark style="color:blue;"><</mark><mark style="color:red;">p</mark><mark style="color:blue;">></mark> Mening birinchi paragrafim <mark style="color:blue;"><</mark><mark style="color:red;">/p</mark><mark style="color:blue;">></mark>
+<mark style="color:blue;">`<`</mark><mark style="color:red;">`p`</mark><mark style="color:blue;">`>`</mark> Mening birinchi paragrafim <mark style="color:blue;">`<`</mark><mark style="color:red;">`/p`</mark><mark style="color:blue;">`>`</mark>
 
-<table><thead><tr><th width="265.3333333333333">Ochiluvchi teg</th><th>Element kontenti</th><th>Yopiluvchi teg</th></tr></thead><tbody><tr><td>&#x3C;h1></td><td>Mening birinchi sarlavham</td><td>&#x3C;/h1></td></tr><tr><td>&#x3C;p></td><td>Mening birinchi paragrafim</td><td>&#x3C;/p></td></tr><tr><td>&#x3C;br></td><td>Yozilmaydi</td><td>Yozilmaydi</td></tr></tbody></table>
+<table><thead><tr><th width="265.3333333333333">Ochiluvchi teg</th><th>Element kontenti</th><th>Yopiluvchi teg</th></tr></thead><tbody><tr><td><code>&#x3C;h1></code></td><td>Mening birinchi sarlavham</td><td>&#x3C;/h1></td></tr><tr><td><code>&#x3C;p></code></td><td>Mening birinchi paragrafim</td><td>&#x3C;/p></td></tr><tr><td><code>&#x3C;br></code></td><td>Yozilmaydi</td><td>Yozilmaydi</td></tr></tbody></table>
 
 {% hint style="warning" %}
 **Eslatma:**

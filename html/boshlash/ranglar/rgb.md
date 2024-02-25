@@ -2,13 +2,13 @@
 
 <mark style="color:red;">**R**</mark><mark style="color:green;">**G**</mark><mark style="color:blue;">**B**</mark> - <mark style="color:red;">QIZIL</mark>, <mark style="color:green;">YASHIL</mark> VA <mark style="color:blue;">KO'K</mark> rang qiymatlarini ifodalaydi.
 
-RGBA rang qiymati esa  Alfa (shaffofligi) ham mavjud bo'lgan RGB ning kengaytirilgan versiyasidir.
+RGBA rang qiymati esa Alfa (shaffofligi) ham mavjud bo'lgan RGB ning kengaytirilgan versiyasidir.
 
 ## <mark style="color:green;">RGB rang qiymatlari</mark>
 
 HTMLda rang quyidagi formula yordamida RGB qiymati sifatida belgilanishi mumkin:
 
-**rgb ( **_**qizil, yashil**_** , **_**ko'k**_** )**
+**rgb ( \_qizil, yashil**_\*\* , \*\*_**ko'k**\_\*\* )\*\*
 
 Har bir parametr (qizil, yashil va ko'k) rangning intensivligini 0 dan 255 gacha bo'lgan qiymat bilan ifodalaydi.
 
@@ -28,7 +28,7 @@ Quyidagi RGB qiymatlarini aralashtirish orqali tajriba qilib ko'ring:
 
 ### <mark style="color:green;">Misol</mark>
 
-<figure><img src="../../../.gitbook/assets/image (852).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_color_rgb" %}
 
@@ -36,7 +36,7 @@ Quyidagi RGB qiymatlarini aralashtirish orqali tajriba qilib ko'ring:
 
 Kulrang soyalar odatda uchta parametrga bir xil qiymat berish orqali tuziladi:
 
-<figure><img src="../../../.gitbook/assets/image (853).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_color_rgb_gray" %}
 
@@ -52,10 +52,10 @@ Alfa parametri 0,0 (to'liq shaffof) va 1,0 (umuman shaffof emas) orasidagi raqam
 
 Quyidagi RGBA qiymatlarini aralashtirish orqali tajriba qilib ko'ring:
 
-<figure><img src="../../../.gitbook/assets/image (854).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:green;">Misol:</mark>
 
-<figure><img src="../../../.gitbook/assets/image (855).png" alt=""><figcaption></figcaption></figure>
+
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_color_rgba" %}

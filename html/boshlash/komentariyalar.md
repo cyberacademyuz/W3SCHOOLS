@@ -1,4 +1,4 @@
-# Komentariyalar
+# Izohlar
 
 HTMLdagi komentariyalar brauzerda ko'rsatilmaydi, ammo sizning HTML kodingizni chunishni osonlashtiradi.
 
@@ -20,6 +20,8 @@ HTMLdagi komentariyalar brauzerda ko'rsatilmaydi, ammo sizning HTML kodingizni c
 
 Komentlar orqali HTML kodingizga bildirishnomalar va eslatmalar qoldirishingiz mumkin.
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <!-- This is a comment -->
 
@@ -29,6 +31,8 @@ Komentlar orqali HTML kodingizga bildirishnomalar va eslatmalar qoldirishingiz m
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_comment" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">Kontentni yashirish</mark>
 
@@ -36,6 +40,8 @@ Kommentlardan kontentni yashirish uchun ham foydalaniladi.
 
 Agar kodni vaqtinchalik yashirishni hohlasangiz bu sizga qo'l keladi.
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <p>This is a paragraph.</p>
 
@@ -45,9 +51,13 @@ Agar kodni vaqtinchalik yashirishni hohlasangiz bu sizga qo'l keladi.
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_comment_hide" %}
+{% endtab %}
+{% endtabs %}
 
-Bundan tashqari, bir nechta qatorlarni ham yashirishingiz mumkin. `<!--` va `-->` o'rtasidagi barcha narsa ekrandan yashiriladi.
+Bundan tashqari, bir nechta qatorlarni ham yashirishingiz mumkin. <mark style="color:red;">`<!--`</mark> va <mark style="color:red;">`-->`</mark> o'rtasidagi barcha narsa ekrandan yashiriladi.
 
+{% tabs %}
+{% tab title="Ruby" %}
 ```html
 <p>This is a paragraph.</p>
 <!--
@@ -58,6 +68,8 @@ Bundan tashqari, bir nechta qatorlarni ham yashirishingiz mumkin. `<!--` va `-->
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_comment_out" %}
+{% endtab %}
+{% endtabs %}
 
 Kommentlar HTML kodlarni debug qilish uchun ham juda yaxshi, chunki xatolarni qidirish uchun kod qatorlarini birma-bir kommentga olishingiz mumkin.
 
@@ -65,8 +77,12 @@ Kommentlar HTML kodlarni debug qilish uchun ham juda yaxshi, chunki xatolarni qi
 
 Paragrafning bir qismini yashirish:
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <p>This <!-- great text --> is a paragraph.</p>
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_comment_inline" %}
+{% endtab %}
+{% endtabs %}

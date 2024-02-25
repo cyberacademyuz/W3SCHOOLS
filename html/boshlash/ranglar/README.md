@@ -18,16 +18,20 @@ HTMLda rangni uning nomi bilan belgilash mumkin.
 
 Siz HTML elementi uchun orqa fon rangini belgilashingiz mumkin.
 
-&#x20;                                                                          <mark style="background-color:blue;">SALOM DUNYO</mark>                                                                          &#x20;
+<mark style="background-color:blue;">SALOM DUNYO</mark>
 
 <mark style="background-color:red;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</mark>
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <h1 style="background-color:DodgerBlue;">Hello World</h1>
 <p style="background-color:Tomato;">Lorem ipsum...</p>
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_color_background" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">Matn ranggi</mark>
 
@@ -39,6 +43,8 @@ Siz matnning ranggini belgilashingiz mumkin:
 
 <mark style="color:green;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</mark>
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <h1 style="color:Tomato;">Hello World</h1>
 <p style="color:DodgerBlue;">Lorem ipsum...</p>
@@ -46,6 +52,8 @@ Siz matnning ranggini belgilashingiz mumkin:
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_color_text" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">Chegara ranggi</mark>
 
@@ -53,6 +61,8 @@ Chegaralar rangini belgilashingiz mumkin:
 
 <figure><img src="../../../.gitbook/assets/image (320).png" alt=""><figcaption></figcaption></figure>
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <h1 style="border:2px solid Tomato;">Hello World</h1>
 <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
@@ -60,6 +70,8 @@ Chegaralar rangini belgilashingiz mumkin:
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_color_border" %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:green;">Rang qiymatlari</mark>
 
@@ -73,6 +85,8 @@ Quyidagi ikkita <mark style="color:red;">`<div>`</mark> elementining fon rangi R
 
 <figure><img src="../../../.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure>
 
+{% tabs %}
+{% tab title="HTML" %}
 ```html
 <h1 style="background-color:rgb(255, 99, 71);">...</h1>
 <h1 style="background-color:#ff6347;">...</h1>
@@ -83,3 +97,5 @@ Quyidagi ikkita <mark style="color:red;">`<div>`</mark> elementining fon rangi R
 ```
 
 {% embed url="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_color_values" %}
+{% endtab %}
+{% endtabs %}
