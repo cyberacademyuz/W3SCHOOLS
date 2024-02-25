@@ -42,4 +42,21 @@
 
 ## CSS
 
-* [Page 1](css/page-1.md)
+* [CSS qo'llanma](css/css-qollanma/README.md)
+  * [CSS HOME](css/css-qollanma/css-home.md)
+  * [CSS Tanishuv](css/css-qollanma/css-tanishuv.md)
+  * [CSS Sintaksis](css/css-qollanma/css-sintaksis.md)
+  * [CSS Selektorlar](css/css-qollanma/css-selektorlar.md)
+  * [CSS qanday qo'shiladi](css/css-qollanma/css-qanday-qoshiladi.md)
+  * [CSS Izohlar](css/css-qollanma/css-izohlar.md)
+  * [CSS Ranglar](css/css-qollanma/css-ranglar/README.md)
+    * [RGB](css/css-qollanma/css-ranglar/rgb.md)
+    * [HEX](css/css-qollanma/css-ranglar/hex.md)
+    * [HSL](css/css-qollanma/css-ranglar/hsl.md)
+  * [CSS Matn](css/css-qollanma/css-matn/README.md)
+    * [Matn ranggi](css/css-qollanma/css-matn/matn-ranggi.md)
+    * [Matn joylashuvi](css/css-qollanma/css-matn/matn-joylashuvi.md)
+    * [Text decoration](css/css-qollanma/css-matn/text-decoration.md)
+    * [Text transform](css/css-qollanma/css-matn/text-transform.md)
+    * [Matn oralig'i](css/css-qollanma/css-matn/matn-oraligi.md)
+    * [Text shadow](css/css-qollanma/css-matn/text-shadow.md)
