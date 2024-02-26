@@ -2,7 +2,7 @@
 
 ### <mark style="color:green;">background-repeat</mark> <a href="#css-background-image-repeat" id="css-background-image-repeat"></a>
 
-Standart tarzda CSS <mark style="color:red;">`background-image`</mark> xususiyati gorizontal va vertikal tarzda qayta-qayta chiqaradi.
+Standart tarzda CSSning <mark style="color:red;">`background-image`</mark> xususiyati gorizontal va vertikal tarzda qayta-qayta chiqaradi.
 
 Ba'zi rasmlar faqat gorizontal yoki faqat vertikal tarzda takrorlanishi kerak, aks holda ular g'alati ko'rinadi, masalan:
 
