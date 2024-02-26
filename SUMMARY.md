@@ -72,8 +72,8 @@
     * [Chegara tomonlari](css/css-qollanma/css-borderlar/chegara-tomonlari.md)
     * [Border qisqarmasi](css/css-qollanma/css-borderlar/border-qisqarmasi.md)
     * [Yumaloq chegaralar](css/css-qollanma/css-borderlar/yumaloq-chegaralar.md)
-<!--* [CSS Marginlar](css/css-qollanma/css-marginlar/README.md)
+* [CSS Marginlar](css/css-qollanma/css-marginlar/README.md)
     * [Margin collapse](css/css-qollanma/css-marginlar/margin-collapse.md)
-  * [CSS Padding](css/css-qollanma/css-padding.md)
-  * [CSS Width/Height](css/css-qollanma/css-height-weight.md)
+    * [CSS Padding](css/css-qollanma/css-padding.md)
+<!--  * [CSS Width/Height](css/css-qollanma/css-height-weight.md)
   * [CSS Box Model](css/css-qollanma/css-box-model.md) -->
