@@ -1,6 +1,6 @@
 # Background repeat
 
-### CSS background-repeat <a href="#css-background-image-repeat" id="css-background-image-repeat"></a>
+### <mark style="color:green;">background-repeat</mark> <a href="#css-background-image-repeat" id="css-background-image-repeat"></a>
 
 Standart tarzda CSS <mark style="color:red;">`background-image`</mark> xususiyati gorizontal va vertikal tarzda qayta-qayta chiqaradi.
 

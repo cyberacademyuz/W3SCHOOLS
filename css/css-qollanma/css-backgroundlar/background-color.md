@@ -11,7 +11,7 @@ Ushbu bo'limda CSSning quyidagi background xususiyatlari haqida o'rganasiz:
 <mark style="color:red;">`background-color`</mark> xususiyati elementning orqafoniga rang beradi.
 
 {% tabs %}
-{% tab title="Ruby" %}
+{% tab title="CSS" %}
 Sahifaning orqafon rangi quyidagicha beriladi:
 
 ```css
@@ -34,7 +34,7 @@ Barcha rang nomlarini bilish uchun <mark style="color:green;">CSS rang qiymatlar
 
 ## <mark style="color:green;">Boshqa elementlar</mark> <a href="#boshqa-elementlar" id="boshqa-elementlar"></a>
 
-HTML dagi har qanday elementning background rangini o'zgartira olasiz:&#x20;
+HTML dagi har qanday elementning background rangini o'zgartira olasiz:
 
 {% tabs %}
 {% tab title="CSS" %}
