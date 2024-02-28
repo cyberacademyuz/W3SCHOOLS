@@ -75,5 +75,5 @@
 * [CSS Marginlar](css/css-qollanma/css-marginlar/README.md)
     * [Margin collapse](css/css-qollanma/css-marginlar/margin-collapse.md)
 * [CSS Padding](css/css-qollanma/css-padding.md)
-* [CSS Width/Height](css/css-qollanma/css-height-weight.md)
+* [CSS Width/Height](css/css-qollanma/css-width-height.md)
 <!--  * [CSS Box Model](css/css-qollanma/css-box-model.md) -->
