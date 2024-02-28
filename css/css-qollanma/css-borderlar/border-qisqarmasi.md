@@ -32,7 +32,7 @@ Bundan tashqari, faqat bir tomon uchun barcha individual chegara xususiyatlarini
 
 {% tabs %}
 {% tab title="CSS" %}
-### Chap tomon chegarasi:
+#### Chap tomon chegarasi:
 
 ```css
 p {
@@ -44,13 +44,13 @@ Natijasi:
 
 <figure><img src="../../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://www.w3schools.com/css/tryit.asp?filename=trycss_border" %}
+{% embed url="https://www.w3schools.com/css/tryit.asp?filename=trycss_border_left" %}
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Ruby" %}
-### Pastki chegara:
+#### Pastki chegara:
 
 ```css
 p {
